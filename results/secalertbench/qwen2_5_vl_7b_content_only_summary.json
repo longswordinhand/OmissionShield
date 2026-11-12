@@ -1,0 +1,18 @@
+{
+  "attack_full_correct": 23,
+  "attack_full_tpr": 0.23,
+  "dataset": "SecAlertBench",
+  "elapsed_seconds": 94.14896845817566,
+  "mdo1_rate_cond_attack_full_correct": 0.6086956521739131,
+  "model": "qwen2_5_vl_7b",
+  "n_attack": 100,
+  "n_attack_mdo1": 14,
+  "n_non_attack": 100,
+  "n_omission_prompts": 305,
+  "n_total": 200,
+  "non_attack_full_correct": 95,
+  "non_attack_tnr": 0.95,
+  "overall_full_accuracy": 0.59,
+  "seed": 20260825,
+  "view": "content_only"
+}

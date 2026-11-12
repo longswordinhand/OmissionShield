@@ -1,0 +1,11 @@
+{
+  "elapsed_seconds": 19.75666904449463,
+  "model": "qwen2_5_vl_7b",
+  "n_commits": 49,
+  "n_full_correct": 44,
+  "n_mdo1": 14,
+  "n_mdo2": 6,
+  "n_pair_prompts": 135,
+  "n_vulnerable_leq2": 20,
+  "vulnerable_leq2_rate_cond_full_correct": 0.45454545454545453
+}

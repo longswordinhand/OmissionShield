@@ -1,0 +1,40 @@
+{
+  "qwen2_5_vl_7b_content_only_summary.json": {
+    "attack_full_tpr": 0.23,
+    "attack_full_tpr_wilson95": [
+      0.15843265880303448,
+      0.3215438302287378
+    ],
+    "mdo1_rate_cond_attack_full_correct": 0.6086956521739131,
+    "mdo1_wilson95": [
+      0.4078552239138171,
+      0.7784237720752205
+    ],
+    "n_attack_full_correct": 23,
+    "n_mdo1": 14,
+    "non_attack_full_correct": 95,
+    "non_attack_tnr": 0.95,
+    "non_attack_tnr_wilson95": [
+      0.8882495307680808,
+      0.9784563208456319
+    ]
+  },
+  "qwen2_5_vl_7b_primary_mdo2_trials.jsonl": {
+    "mdo1_rate_cond_attack_full_correct": 0.38181818181818183,
+    "mdo1_wilson95": [
+      0.265159542588938,
+      0.5139077976751008
+    ],
+    "mean_random_hit_probability_at_case_specific_mdo_among_vulnerable": 0.10973360702709889,
+    "n_attack_full_correct": 55,
+    "n_mdo1": 21,
+    "n_mdo2": 26,
+    "n_random_probability_cases": 47,
+    "n_vulnerable_leq2": 47,
+    "vulnerable_leq2_rate_cond_attack_full_correct": 0.8545454545454545,
+    "vulnerable_leq2_wilson95": [
+      0.7383908706854773,
+      0.9244071085224069
+    ]
+  }
+}

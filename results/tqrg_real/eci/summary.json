@@ -1,0 +1,8 @@
+{
+  "complete_accept_rate": 1.0,
+  "exact_missing_id_rate": 1.0,
+  "n_commits": 19,
+  "n_complete": 19,
+  "n_single_file_suppressions": 57,
+  "suppression_detection_rate": 1.0
+}

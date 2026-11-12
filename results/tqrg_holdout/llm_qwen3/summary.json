@@ -1,0 +1,11 @@
+{
+  "full_security_fix_recognition": 0.8,
+  "max_omission_budget": 2,
+  "model": "qwen3:latest via Ollama, temperature=0, /no_think",
+  "n_full_correct": 24,
+  "n_mdo1": 14,
+  "n_mdo2": 1,
+  "n_no_flip_within_2": 9,
+  "n_retrieved_commits": 30,
+  "vulnerable_within_2_rate_cond_full_correct": 0.625
+}

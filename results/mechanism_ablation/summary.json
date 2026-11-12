@@ -1,0 +1,45 @@
+{
+  "attack_missing_counts": [
+    1,
+    4,
+    1,
+    4,
+    16,
+    1,
+    4,
+    16,
+    64,
+    1,
+    4,
+    16,
+    64,
+    256
+  ],
+  "design": "balanced fan-in transformed-evidence trees; sink sees one derived root only",
+  "fanin": 4,
+  "mechanisms": {
+    "direct_manifest_full_forward_special_case": {
+      "attack_accept": 0,
+      "attack_reject": 14,
+      "complete_accept": 4
+    },
+    "eci_transitive_coverage": {
+      "attack_accept": 0,
+      "attack_reject": 14,
+      "complete_accept": 4,
+      "exact_missing_attack_conditions": 14
+    },
+    "positive_provenance_only": {
+      "attack_accept": 14,
+      "attack_reject": 0,
+      "complete_accept": 4
+    },
+    "terminal_only_check": {
+      "attack_accept": 14,
+      "attack_reject": 0,
+      "complete_accept": 4
+    }
+  },
+  "n_attack_conditions": 14,
+  "n_complete_conditions": 4
+}

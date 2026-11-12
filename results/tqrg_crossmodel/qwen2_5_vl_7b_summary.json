@@ -1,0 +1,10 @@
+{
+  "elapsed_seconds": 28.025242805480957,
+  "full_accuracy": 0.8979591836734694,
+  "mdo1_rate_cond_full_correct": 0.3181818181818182,
+  "model": "qwen2_5_vl_7b",
+  "n_commits": 49,
+  "n_full_correct": 44,
+  "n_mdo1": 14,
+  "n_prompts": 194
+}

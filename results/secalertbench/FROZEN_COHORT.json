@@ -1,0 +1,1233 @@
+{
+  "content_only_exclude": [
+    "attack_type",
+    "kill_chain_all",
+    "rule_name"
+  ],
+  "dataset": "data/public/secalertbench/secalertbench.json",
+  "fields_primary": [
+    "attack_type",
+    "dip",
+    "dport",
+    "host",
+    "kill_chain_all",
+    "method",
+    "parameter",
+    "proto",
+    "req_body",
+    "req_header",
+    "rsp_body",
+    "rsp_header",
+    "rsp_status",
+    "rule_name",
+    "sip",
+    "sport",
+    "uri",
+    "xff"
+  ],
+  "n_per_label": 100,
+  "seed": 20260825,
+  "selected": [
+    {
+      "index": 2193,
+      "label": "Attack",
+      "record_sha256": "984223be3c3a779244453b2d4b44b9d326a8a560589974b9e231c5a1f30f5f08",
+      "rule_name": "敏感信息扫描(机器学习)"
+    },
+    {
+      "index": 5640,
+      "label": "Attack",
+      "record_sha256": "0c7d7b9cc87f98cec261e0b5b0ff1b8e4c9f8573c0f18a1aeb32b2b3b39aa686",
+      "rule_name": "htdig任意文件包含漏洞"
+    },
+    {
+      "index": 6476,
+      "label": "Attack",
+      "record_sha256": "b3946c3a9e7abb94007af7d377242460c5d53d30a86156936336ea9b95469a7f",
+      "rule_name": "发现尝试请求Linux下敏感文件"
+    },
+    {
+      "index": 1028,
+      "label": "Attack",
+      "record_sha256": "834e756bbcb80c07e8c31aa41f1c6ed93b164ba7517e03a8bf2222c30c34b312",
+      "rule_name": "路径穿越攻击(机器学习)"
+    },
+    {
+      "index": 415,
+      "label": "Attack",
+      "record_sha256": "d950c79eb66f5b92a7841463f70e51dab0b824608c41601d5c82715e6ec189d7",
+      "rule_name": "Bash远程代码执行漏洞(CVE-2014-6271)"
+    },
+    {
+      "index": 2159,
+      "label": "Attack",
+      "record_sha256": "9e5051a42cedcff0e34061510caa47a5db00ad5f5f5909eda35aea3a53d84b5b",
+      "rule_name": "Apache Log4j2 远程代码执行漏洞(CVE-2021-44228/CVE-2021-45046)"
+    },
+    {
+      "index": 6766,
+      "label": "Attack",
+      "record_sha256": "c91ead5500d97683939c3d6725d15a783f63a997c39777cf55423eb95121ccf4",
+      "rule_name": "发现java可疑类绕过攻击"
+    },
+    {
+      "index": 6585,
+      "label": "Attack",
+      "record_sha256": "06c337559cf383a2b9495f76c361510707de8135a9a75958eb9edacd74c4a84d",
+      "rule_name": "Java框架通用代码执行攻击"
+    },
+    {
+      "index": 3697,
+      "label": "Attack",
+      "record_sha256": "97cf89dfd872d6877de9f66d5ff6a9f9d39947e8e990ee103546137e9f31297c",
+      "rule_name": "疑似访问/下载脚本文件"
+    },
+    {
+      "index": 7828,
+      "label": "Attack",
+      "record_sha256": "03e369e62e3a0f535b996c51f18f22d9cffab7a5a6cc868c1fa4e19f9cded2cc",
+      "rule_name": "Apache Struts2 远程代码执行漏洞（CVE-2018-11776/S2-057）"
+    },
+    {
+      "index": 910,
+      "label": "Attack",
+      "record_sha256": "db167c0a26bddec2e54f9e19f850047c53f747657819dae62744461eeb25146c",
+      "rule_name": "HP SiteScope SOAP Call APISiteScopeImpl Multiple 信息泄露漏"
+    },
+    {
+      "index": 1245,
+      "label": "Attack",
+      "record_sha256": "bdb1bd160feb642cb2ef3e7dc105090e82597c59e5037575216b89063831ed38",
+      "rule_name": "发现敏感目录/文件探测行为"
+    },
+    {
+      "index": 2543,
+      "label": "Attack",
+      "record_sha256": "0949984763fb157975eac52168df359e68e0687bf2368d4c8c36499f9e23616d",
+      "rule_name": "发现目录穿越攻击行为"
+    },
+    {
+      "index": 4489,
+      "label": "Attack",
+      "record_sha256": "4f9e5b5955b9fb7e187beada9956ecc2b3ce56dae0209ca3310914d5d019fa2c",
+      "rule_name": "发现系统命令注入行为"
+    },
+    {
+      "index": 1929,
+      "label": "Attack",
+      "record_sha256": "fa23d37b6f8729ed8df908c825057fbf7abfe385279d550cae0a2f383ed9adff",
+      "rule_name": "Apache solr XML 实体注入漏洞（CVE-2017-12629）"
+    },
+    {
+      "index": 1678,
+      "label": "Attack",
+      "record_sha256": "6acb44f511b7ba4e5058ebe391ee3f44bd1a3fe833bef5170a216c61bed565ca",
+      "rule_name": "Spring Data Commons 远程代码执行漏洞(CVE-2018-1273)"
+    },
+    {
+      "index": 835,
+      "label": "Attack",
+      "record_sha256": "f33149b199a9917b5a4e2ebde214972efb5a1f9d8587f8acdf25da009fa9718c",
+      "rule_name": "Oracle 9i默认配置文件信息泄露漏洞"
+    },
+    {
+      "index": 4053,
+      "label": "Attack",
+      "record_sha256": "52dfda475cf63a1b4d7556898b3c840ba41b56786541df9c974d27df12d75bc5",
+      "rule_name": "Druid 存在未授权访问漏洞"
+    },
+    {
+      "index": 1674,
+      "label": "Attack",
+      "record_sha256": "a782b23a834d5d107a3f758f8cb32185a7755cfbc759b7caff8deb5ae358ad19",
+      "rule_name": "OA系统 use_finger.php USER_ID SQL注入漏洞"
+    },
+    {
+      "index": 7549,
+      "label": "Attack",
+      "record_sha256": "7dae5f01220b12efee79f4586e1f1d26bfbd049d2d20a03f5ff21262fd119d1a",
+      "rule_name": "Huawei Auth-HTTP Serve 文件读取漏洞"
+    },
+    {
+      "index": 1997,
+      "label": "Attack",
+      "record_sha256": "0752bfa3e3fd3e25efc66880c93b002be46fbd563fd021bc3949c346a3527fca",
+      "rule_name": "Apache NiFi 未授权访问漏洞(CVE-2024-56512)"
+    },
+    {
+      "index": 2524,
+      "label": "Attack",
+      "record_sha256": "902b11de5b71902688559d053d7100ec0eb0997e7c41fd872642f74c3bfc46dd",
+      "rule_name": "Atlassian Jira Server 和 Jira Data Center 目录遍历漏洞(CVE-2020-29453)"
+    },
+    {
+      "index": 1610,
+      "label": "Attack",
+      "record_sha256": "b63f2aa07298dc7c101a41228c7e83df8a7643c829cc9326c8c9f07e75078e3f",
+      "rule_name": "发现使用CommonsCollections1进行反序列攻击(http)"
+    },
+    {
+      "index": 5031,
+      "label": "Attack",
+      "record_sha256": "118da22de86a30cc13a28e0ba8032d07520000d596ccbba93d45b2a1058198b7",
+      "rule_name": "Shell命令执行(机器学习)"
+    },
+    {
+      "index": 1942,
+      "label": "Attack",
+      "record_sha256": "a1b8c3b6b6adc430394029960ee87cd2f8dd31a05d817549316b70308da0fbe8",
+      "rule_name": "通用命令执行漏洞"
+    },
+    {
+      "index": 3709,
+      "label": "Attack",
+      "record_sha256": "9d2880e1535ad7b053975acd99e447d770d7bb88f4c6ce500b691a35816b3f1a",
+      "rule_name": "基于Basic Authentication认证弱口令"
+    },
+    {
+      "index": 6484,
+      "label": "Attack",
+      "record_sha256": "ffa408ef013f9ec1ac4cf4f1fe6f1c7ce0a17b596488806562541f82cfd8ba1f",
+      "rule_name": "Bash Shellshock 任意命令执行漏洞(CVE-2014-6271)"
+    },
+    {
+      "index": 7576,
+      "label": "Attack",
+      "record_sha256": "c8dee940a4e019f6e3a3196722cbb081ac969758d30627486bbcbe4893d09ea9",
+      "rule_name": "深信服EDR远程命令执行漏洞"
+    },
+    {
+      "index": 3393,
+      "label": "Attack",
+      "record_sha256": "1911d6ee5fd1116bd0a44170e3c09c423acc9175af83890a2426c318472a6d01",
+      "rule_name": "通用命令注入绕过攻击"
+    },
+    {
+      "index": 3366,
+      "label": "Attack",
+      "record_sha256": "ad9557fbf4e216b07a8b9543279db312b160dd7573e7223be6df4ec285b9fa5b",
+      "rule_name": "nginxWebUI runCmd命令执行漏洞"
+    },
+    {
+      "index": 3000,
+      "label": "Attack",
+      "record_sha256": "6f6414c7ae8006f295de1a1b06171ec4d313158dd47c1510265191e0bdd12c13",
+      "rule_name": "Struts2 XWork ParameterInterceptors补丁绕过远程代码执行漏洞（S2-009/CVE-2011-3923 ）"
+    },
+    {
+      "index": 36,
+      "label": "Attack",
+      "record_sha256": "0ea90a98d04d7808cb4b704454fefc80be3db2f0d1357120509fac57bbb97b64",
+      "rule_name": "Apache Struts 2 安全漏洞(CVE-2018-11776)"
+    },
+    {
+      "index": 1386,
+      "label": "Attack",
+      "record_sha256": "16a30145c7cfd84ab2f47c5989cc4cf4fdce94332e2dcc4eeecb87e606bf3406",
+      "rule_name": "浙江宇视科技网络视频录像机远程命令执行漏洞"
+    },
+    {
+      "index": 6635,
+      "label": "Attack",
+      "record_sha256": "00324c7b0b24b8a3afdf2c61215103fc998612bb4cddd5b41dde99faed25c23f",
+      "rule_name": "Web弱口令登录"
+    },
+    {
+      "index": 4031,
+      "label": "Attack",
+      "record_sha256": "e2724524e9e63a30f652a214ff1f8b79d324bf8f0184caab2c1f67931c90e0c7",
+      "rule_name": "发现管理员用户弱口令登录行为"
+    },
+    {
+      "index": 6494,
+      "label": "Attack",
+      "record_sha256": "d4e7d9e9eaa94c6a89301192662ac3ea8ff30cd17f8e0db61907f926cfb0f58f",
+      "rule_name": "rConfig未授权远程命令执行漏洞(CVE-2019-16662)"
+    },
+    {
+      "index": 2534,
+      "label": "Attack",
+      "record_sha256": "e9fda4f82bf19ddd65826fbf4f7e8436e23400ea4614e147c531d97d1d3b213a",
+      "rule_name": "发现PUT方式上传TXT/HTML文件"
+    },
+    {
+      "index": 3828,
+      "label": "Attack",
+      "record_sha256": "9cde9b179563975df543630f7826138275f24d572d8aea06b4ae9828e51767d5",
+      "rule_name": "Oracle 9iAS OracleJSP泄漏JSP文件信息漏洞"
+    },
+    {
+      "index": 1323,
+      "label": "Attack",
+      "record_sha256": "0907bad5e3f0b44e2fbf96a91073f2226d24f5e30638dc6e7bbfa6d4a2d9b6ed",
+      "rule_name": "发现PHP脚本文件上传行为"
+    },
+    {
+      "index": 1745,
+      "label": "Attack",
+      "record_sha256": "3db45fac50ba8fcb8680ef7871b61c2bcef28c98bb9e773b54e5fed1a7e2b689",
+      "rule_name": "Spring Cloud Function SpEL表达式注入漏洞(CVE-2022-22963)"
+    },
+    {
+      "index": 1293,
+      "label": "Attack",
+      "record_sha256": "d73f8507202046bbd865a2e2f1d2ab50d02ddd34f00124ce8a5dd8c5b20e473d",
+      "rule_name": "XXL-JOB未授权远程命令执行漏洞"
+    },
+    {
+      "index": 3317,
+      "label": "Attack",
+      "record_sha256": "43f093afa1efba6f92ce825bf0e21f0a234165aee4d1a45109c41e7ab9cdf67a",
+      "rule_name": "Java Struts2代码注入漏洞"
+    },
+    {
+      "index": 4585,
+      "label": "Attack",
+      "record_sha256": "14d16f1c37e548832c8ab775889c797a9911e424782198baee92168721d41985",
+      "rule_name": "Novell ZENworks Asset Management Web Console 信息泄露漏洞"
+    },
+    {
+      "index": 6824,
+      "label": "Attack",
+      "record_sha256": "fdf8bee0c20e5345a1c85e5baf7fbd38b83af7e2c926bcbb28454b6a083edd1a",
+      "rule_name": "Apache Tomcat DefaultServlet文件泄露漏洞(CVE-2002-1148)"
+    },
+    {
+      "index": 6764,
+      "label": "Attack",
+      "record_sha256": "61f230cd462550dd7d326da27fa721956366e68853d526cf5be4b5c0e749ef86",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 6064,
+      "label": "Attack",
+      "record_sha256": "c2ae43af73424df8268e57f4b031fc43c5b1b0aa7111dcd4c1b4bdde92585474",
+      "rule_name": "nginxWebUI solon命令执行漏洞"
+    },
+    {
+      "index": 2091,
+      "label": "Attack",
+      "record_sha256": "9260a9e76ba4771db2c157f3e851d43b0f871310586485282e25b3adc42e7aea",
+      "rule_name": "Joomla！1.5 <3.4.5  x-forwarded-for对象注入远程执行代码（CVE-2015-8562）"
+    },
+    {
+      "index": 4745,
+      "label": "Attack",
+      "record_sha256": "ebb79d9465d8fd7fc1852c27ef64f5afffd1f9a0d35ca417c1cc2c4e0e2f8449",
+      "rule_name": "Java代码执行攻击(机器学习)"
+    },
+    {
+      "index": 6164,
+      "label": "Attack",
+      "record_sha256": "5d4c168e55ebd67d48ef1c25d64ba4f1d8f68232be2eb996f37c782f3566fff7",
+      "rule_name": "Novell ZENWorks Asset Management 信息泄露漏洞"
+    },
+    {
+      "index": 3174,
+      "label": "Attack",
+      "record_sha256": "14a2401c098731318eb69711514888320219fcaa50adc414de98608a0e817f18",
+      "rule_name": "ThinkPHP 5.0.x—5.1 远程代码执行"
+    },
+    {
+      "index": 5581,
+      "label": "Attack",
+      "record_sha256": "685962665978f5b2f3f45dd528fddbe1b2208863f33320701c56c02be2c69900",
+      "rule_name": "发现通过OPTIONS探测服务器信息"
+    },
+    {
+      "index": 879,
+      "label": "Attack",
+      "record_sha256": "ad687526a58b3d169e2d8ae34403a32adeba0917b248526255b86a95bdc7c6d9",
+      "rule_name": "发现脚本文件上传行为"
+    },
+    {
+      "index": 6228,
+      "label": "Attack",
+      "record_sha256": "fe4dbea62399ed8f5d9deb46de9a7845b41330958d310dd88080c5119f3c5a18",
+      "rule_name": "Apache ShenYu 网关JWT认证绕过漏洞(CVE-2021-37580)"
+    },
+    {
+      "index": 4966,
+      "label": "Attack",
+      "record_sha256": "64a9c455c951fec21f0dd384e4ab4144a9321f7c4f31eb40363cb8ae45ef0ecc",
+      "rule_name": "Apache Druid 任意文件读取漏洞(CVE-2021-36749)"
+    },
+    {
+      "index": 7057,
+      "label": "Attack",
+      "record_sha256": "dd4feeeb34f9d7b6d35cfe9049f250411fc9d5df06a979dd2c62a7acb98d982d",
+      "rule_name": "ThinkPHP 5.x 远程代码执行"
+    },
+    {
+      "index": 3160,
+      "label": "Attack",
+      "record_sha256": "ffa8ce24ebe1162bd41ffe8af03ac94dc5f764988cda79b49fe4d1056280b000",
+      "rule_name": "Struts2 远程代码执行漏洞 （s2-015/CVE-2013-2135）"
+    },
+    {
+      "index": 1147,
+      "label": "Attack",
+      "record_sha256": "8682774294e15df853d33c930c6d892cf223306497c82b51e7273ec2807e42e2",
+      "rule_name": "PHP代码执行攻击"
+    },
+    {
+      "index": 1648,
+      "label": "Attack",
+      "record_sha256": "01405d77e1f867a0bc752015859d53a1ff4b23e8ef54b341b5e72390afad91a8",
+      "rule_name": "泛微OA E-Weaver SignatureDownLoad 任意文件读取漏洞"
+    },
+    {
+      "index": 7237,
+      "label": "Attack",
+      "record_sha256": "d9a4e466041edb2cf3dc248650b61a990b62a5d0afeef0a7f3bfe1aa2e25e982",
+      "rule_name": "Hadoop YARN ResourceManager 未授权访问"
+    },
+    {
+      "index": 962,
+      "label": "Attack",
+      "record_sha256": "ce373e30c0b2df99a0480af2a08dc9d96068c8f73bcc0fd173c76dbacb62a218",
+      "rule_name": "若依框架sendMessageWithAttachment接口任意文件读取漏洞"
+    },
+    {
+      "index": 6531,
+      "label": "Attack",
+      "record_sha256": "c9284bcae377a8ecde6a78b54b4c80ddd430ca56bdaacf4a9fe59923e7b770c8",
+      "rule_name": "ThinkPHP远程执行代码（CVE-2019-9082）"
+    },
+    {
+      "index": 3533,
+      "label": "Attack",
+      "record_sha256": "6eb9ff52b2cb8151cac9472000ae7319fcb08f65df3abdb95a63f28e7ff2e639",
+      "rule_name": "Apache HTTP Server 路径穿越/远程命令执行漏洞(CVE-2021-41773)"
+    },
+    {
+      "index": 6812,
+      "label": "Attack",
+      "record_sha256": "fd211a1c665e1e021d0ead57a8ba0f3f39e62a00c32ec58d8c01d70e9638bfaa",
+      "rule_name": "Pulse Secure Pulse Connect Secure VPN任意文件读取漏洞(CVE-2019-11510)"
+    },
+    {
+      "index": 939,
+      "label": "Attack",
+      "record_sha256": "953df128cc0cd90a339adfb20c22147da95a875157a5e0d6ad9cb3dd15676e17",
+      "rule_name": "BeanShell 远程代码执行漏洞"
+    },
+    {
+      "index": 590,
+      "label": "Attack",
+      "record_sha256": "77e5247362cb20c92c59ef743af8b964d862c03e391c7ddf28591120231f51ff",
+      "rule_name": "ThinkPHP 2.x 任意代码执行漏洞"
+    },
+    {
+      "index": 1382,
+      "label": "Attack",
+      "record_sha256": "e6717d26410ea18a2bf1e5dd585b49804862bf4a8e94635d06eda1fdd458b944",
+      "rule_name": "XML外部实体注入攻击(XXE)"
+    },
+    {
+      "index": 6754,
+      "label": "Attack",
+      "record_sha256": "9e8a7dce08d3612938faf7177fdf4796fe49072d9cd5c5b89cfadcb3983a21bd",
+      "rule_name": "Spring Framework 远程命令执行漏洞(CVE-2022-22965)"
+    },
+    {
+      "index": 5331,
+      "label": "Attack",
+      "record_sha256": "0579897753b0567beb3f0606c7515399929ec43cda8f5bf8116569583b016791",
+      "rule_name": "发现使用CommonsCollections7进行反序列攻击(http)"
+    },
+    {
+      "index": 8217,
+      "label": "Attack",
+      "record_sha256": "28fed138dd995d79a54a03b1fac034886b5db1b9c598ec8e416df21133cbb1f4",
+      "rule_name": "发现读取Windows敏感文件行为"
+    },
+    {
+      "index": 305,
+      "label": "Attack",
+      "record_sha256": "1e46627201588a979150d4c464022e2fe7b03f99ed44ea0e2fbd2414b7e13e7a",
+      "rule_name": "jquery 任意文件读取漏洞"
+    },
+    {
+      "index": 6427,
+      "label": "Attack",
+      "record_sha256": "1a692dcccbceb34bd8bd6660db938acbaae905776654671bba52ef3c6b1e0a0e",
+      "rule_name": "金和OA系统任意文件读取漏洞"
+    },
+    {
+      "index": 6796,
+      "label": "Attack",
+      "record_sha256": "41f65b0331ba50836aa7cc61d93f6eec7de74a41186fde25527ee2ff50db3861",
+      "rule_name": "Apache HTTP Server 路径穿越/远程命令执行漏洞(CVE-2021-42013)"
+    },
+    {
+      "index": 1896,
+      "label": "Attack",
+      "record_sha256": "cd12abb34e8136190a86e7bd1b0f56ddbc272eadcab060df1a2bd849c48fdccf",
+      "rule_name": "Apache APISIX 默认密钥漏洞(CVE-2020-13945)"
+    },
+    {
+      "index": 1959,
+      "label": "Attack",
+      "record_sha256": "d346ab39c5c32ec7b04e70d52f60852ec0535f8bd6fcaa0e158431207679a21e",
+      "rule_name": "Supervisor XML-RPC服务器安全漏洞(CVE-2017-11610)"
+    },
+    {
+      "index": 349,
+      "label": "Attack",
+      "record_sha256": "796f0e39f346d69f68f97539f3c74360fdc685db20496cb137e61b4368d2036b",
+      "rule_name": "ThinkPHP远程代码执行漏洞 (CVE-2022-47945)"
+    },
+    {
+      "index": 6872,
+      "label": "Attack",
+      "record_sha256": "aaebff50251ee2245a70d649de11077d9d2fadb764c1742fbb9c48a9b9e42d7a",
+      "rule_name": "WebServer文件解析漏洞攻击"
+    },
+    {
+      "index": 6023,
+      "label": "Attack",
+      "record_sha256": "767d070a91878c033489728b3bb08321e0a3b14a528c7840e7560d00103aa7ba",
+      "rule_name": "Oracle Fusion Middleware Oracle Reports Developer组件未明安全漏洞"
+    },
+    {
+      "index": 3760,
+      "label": "Attack",
+      "record_sha256": "8ba5af3e793b4efdf138cfa251144bdf740451007190f1f2a17b90db1016b1d3",
+      "rule_name": "vBulletin 任意代码执行漏洞"
+    },
+    {
+      "index": 712,
+      "label": "Attack",
+      "record_sha256": "30d9aba4f9c7d7a98ef5092be392043675bf852e0027b7fca6c7363161925b44",
+      "rule_name": "DedeCms v5.7 SQL注入漏洞"
+    },
+    {
+      "index": 491,
+      "label": "Attack",
+      "record_sha256": "7ea45cfd9840e2ff75661b193ab504b4545624e48b768d61344d9debd24ae74d",
+      "rule_name": "Apache Solr 信息泄露漏洞"
+    },
+    {
+      "index": 405,
+      "label": "Attack",
+      "record_sha256": "88d1b5e3245a90022a94d3502b8c2792fc003fda38e23b468c3fc606d2786348",
+      "rule_name": "JBoss war包上传漏洞"
+    },
+    {
+      "index": 4093,
+      "label": "Attack",
+      "record_sha256": "7d7514c0ae04023a0fcf19485268d50f3c40e4c7781ac46a7b3aa32c820f4f38",
+      "rule_name": "Apache Shiro 身份验证绕过漏洞(CVE-2016-6802)"
+    },
+    {
+      "index": 8179,
+      "label": "Attack",
+      "record_sha256": "f986679dded1a6f45c23011bee319464824c690a3577a4f5d5c9c0c3709b45a3",
+      "rule_name": "金和JC6 远程命令执行漏洞"
+    },
+    {
+      "index": 7469,
+      "label": "Attack",
+      "record_sha256": "32f0d4ee8a73860aa41a165620c6727eba59dc720acc33624429822ef7a6e9f5",
+      "rule_name": "PHPUnit 远程代码执行漏洞(CVE-2017-9841)"
+    },
+    {
+      "index": 6890,
+      "label": "Attack",
+      "record_sha256": "0170798efaba3536b52642391f92137b31f9e37c7fc7cf359f160731283ce92e",
+      "rule_name": "Struts2 远程代码执行漏洞 （s2-012/CVE-2013-1965）"
+    },
+    {
+      "index": 5564,
+      "label": "Attack",
+      "record_sha256": "e570b97b4aaa9cc3f71a9c94310bfc10fb9d5fd9f2cf1a6e9cfa988034b157ff",
+      "rule_name": "Joomla  API未授权访问漏洞(CVE-2023-23752)"
+    },
+    {
+      "index": 5383,
+      "label": "Attack",
+      "record_sha256": "6ef608c7931bdcfe82bb9b1ede0b5af6915f458472d4c25a541d801d492e0827",
+      "rule_name": "Apache Unomi 远程代码执行漏洞(CVE-2020-13942)"
+    },
+    {
+      "index": 1710,
+      "label": "Attack",
+      "record_sha256": "e93eb2e95f265cb6911ed2f7989878e3e19bc82705dc266b13d26b3042a014a5",
+      "rule_name": "Microsoft IIS CGI文件名错误解码漏洞(MS01-026)"
+    },
+    {
+      "index": 1092,
+      "label": "Attack",
+      "record_sha256": "94d6bb441ad219791d4146263cc46190c8442faddd44f489d9fda0a4c3630b19",
+      "rule_name": "H3C企业路由器存在配置信息泄露漏洞"
+    },
+    {
+      "index": 153,
+      "label": "Attack",
+      "record_sha256": "31a0a6d9e6735d06dfe033db030e6519fec3d2d11a35a1f22ef7ccb1ca8d3931",
+      "rule_name": "Apache OFBiz 任意文件读取漏洞(CVE-2023-50968)"
+    },
+    {
+      "index": 7425,
+      "label": "Attack",
+      "record_sha256": "4e0436f3ddb9ccf82cb065622665efcd23e3bdf02f54f8969307b68901f0f09b",
+      "rule_name": "金和OA信息泄露漏洞"
+    },
+    {
+      "index": 3752,
+      "label": "Attack",
+      "record_sha256": "b984bc5ca0a969f6a167ab302126e09a7c5819186738f0bfa568ca7de6cbbb31",
+      "rule_name": "金和OA C6系统download.jsp接口任意文件读取漏洞"
+    },
+    {
+      "index": 4729,
+      "label": "Attack",
+      "record_sha256": "a5d7101027506bcd4ba8240b61d5ba93613d8958f61ef038b11ac776f6aa49d6",
+      "rule_name": "Go pprof 调试信息泄露漏洞"
+    },
+    {
+      "index": 2968,
+      "label": "Attack",
+      "record_sha256": "866a87810ac6f9a9217d50afcb1ab9bcd805b141733043dca7d791fbdc5409ad",
+      "rule_name": "SQL注入(词法语法)"
+    },
+    {
+      "index": 85,
+      "label": "Attack",
+      "record_sha256": "7be016acbf2010d0904b1fc835dfd3787093640ab5a6260b2de93bdc840b7f83",
+      "rule_name": "Apache Struts 多个开放重定向漏洞(CVE-2013-2248)"
+    },
+    {
+      "index": 2305,
+      "label": "Attack",
+      "record_sha256": "f60fe3e14d1f2b695290343efdd1ce8de9cf625d8b438d547ecf00ff87765e85",
+      "rule_name": "PHP代码执行攻击(机器学习)"
+    },
+    {
+      "index": 5433,
+      "label": "Attack",
+      "record_sha256": "840027ee32098845efb8a580118ae7c5df2634cb4e31ce749256b6fbf42d4731",
+      "rule_name": "Apache Flink 任意文件上传漏洞(CVE-2020-17518)"
+    },
+    {
+      "index": 3809,
+      "label": "Attack",
+      "record_sha256": "83ea13221fa882dfe7a90a66500bf61c345f4c616e7a4c14664055b77bfb3290",
+      "rule_name": "GeoServer 远程代码执行漏洞"
+    },
+    {
+      "index": 8265,
+      "label": "Attack",
+      "record_sha256": "faf18fc850df7c94ce14eebf5346f97a07cb7057a0abf8f1426af93588de5842",
+      "rule_name": "FreeMarker表达式注入漏洞"
+    },
+    {
+      "index": 4269,
+      "label": "Attack",
+      "record_sha256": "84a6322fd2a93449ed3a307dd83bbec9b8279f8ca0c6090fb72c1a58d5319477",
+      "rule_name": "发现使用SSTI漏洞进行攻击"
+    },
+    {
+      "index": 6445,
+      "label": "Non-Attack",
+      "record_sha256": "73faa7a5a91b0196f25ea95d6700f719bf562452cb21a46260400161858ce172",
+      "rule_name": "发现使用HTTP代理行为"
+    },
+    {
+      "index": 3617,
+      "label": "Non-Attack",
+      "record_sha256": "b868e7f0f327b16a6a3a50a78046ff05d30c36241d95d941ee7336bf173ea833",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 3765,
+      "label": "Non-Attack",
+      "record_sha256": "a6295fb6fd5e1f6d5586aa0e5d951418b6712e0bcd1c8263af958fd51c97d82d",
+      "rule_name": "发现敏感信息泄露"
+    },
+    {
+      "index": 6892,
+      "label": "Non-Attack",
+      "record_sha256": "a8904e879ecad3eb2955d115b1866738d7ea148845561da4d001e2a3a5497bb3",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 6485,
+      "label": "Non-Attack",
+      "record_sha256": "b8f858b58bc2388082d1c4a1dd91f383af00adec21fb7ddf9d42203f601037e0",
+      "rule_name": "Web弱口令登录"
+    },
+    {
+      "index": 273,
+      "label": "Non-Attack",
+      "record_sha256": "4c66e5e0197621e4c680c260ea846ce64292331350a7ae6ed2cd57c6378f4239",
+      "rule_name": "SQL注入攻击"
+    },
+    {
+      "index": 7615,
+      "label": "Non-Attack",
+      "record_sha256": "b5a9b7f62fb48696b5aa5849da4cdef5c6dc86285122671bb892f9a74e24e8f2",
+      "rule_name": "发现管理员用户弱口令登录行为"
+    },
+    {
+      "index": 3166,
+      "label": "Non-Attack",
+      "record_sha256": "996cbc29374f5e33ee6c92f2f5a4b36f6fe161aea015962d9c2499c8d3faa6fe",
+      "rule_name": "发现目录穿越攻击行为"
+    },
+    {
+      "index": 5393,
+      "label": "Non-Attack",
+      "record_sha256": "88e0a75361667990f0420106c8636d1ad557011aceaf4c259d6a837528a3d4c4",
+      "rule_name": "疑似访问/下载脚本文件"
+    },
+    {
+      "index": 809,
+      "label": "Non-Attack",
+      "record_sha256": "ab8ecb639535c9088941a6b07f0d91a551969beb0a48ccc95c0a43d2eeaced9f",
+      "rule_name": "Apache Log4j2 远程代码执行漏洞(CVE-2021-44228/CVE-2021-45046)"
+    },
+    {
+      "index": 313,
+      "label": "Non-Attack",
+      "record_sha256": "ee4e84d80811329ee159e5885f7750031a55b2103cf1191fa3ec9fc8b7a93674",
+      "rule_name": "Apache Struts 多个开放重定向漏洞(CVE-2013-2248)"
+    },
+    {
+      "index": 2156,
+      "label": "Non-Attack",
+      "record_sha256": "4b097f0526a18b28e57e4d23c70214090af6c5f36340bce83ddecf982e618433",
+      "rule_name": "发现PUT方式上传TXT/HTML文件"
+    },
+    {
+      "index": 3713,
+      "label": "Non-Attack",
+      "record_sha256": "16398f62737a48554fc4515b8d2230e30e798fc1f182b3c8c74d9839373123e8",
+      "rule_name": "跨站脚本攻击(机器学习)"
+    },
+    {
+      "index": 3488,
+      "label": "Non-Attack",
+      "record_sha256": "bd24678d5b386e6e26e298f04a4cd9496667129a5bf2db4f51e81724b1e50a08",
+      "rule_name": "发现目录启用了自动目录列表功能"
+    },
+    {
+      "index": 1325,
+      "label": "Non-Attack",
+      "record_sha256": "7deeb5d9bac5216654190dc9ad31e90b4888d5030f5c5f3917450d9b60b5fe6b",
+      "rule_name": "Python代码执行漏洞(通用)"
+    },
+    {
+      "index": 3762,
+      "label": "Non-Attack",
+      "record_sha256": "7fb5ee04f273084f643f6c6370d1700de03b0b2f4d06e56a1dcdd518dbfb41dd",
+      "rule_name": "发现通过OPTIONS探测服务器信息"
+    },
+    {
+      "index": 4768,
+      "label": "Non-Attack",
+      "record_sha256": "18448528675ff7bc17625587cc63759cf32b86597d24d401fb47b7af792b0de6",
+      "rule_name": "SQL注入(编码不规范)"
+    },
+    {
+      "index": 7427,
+      "label": "Non-Attack",
+      "record_sha256": "f4625b53bfca80ef1b895fc3cfc7004e24cdd332f25f71e05af10299d0eb7248",
+      "rule_name": "Horde Groupware后门漏洞(CVE-2012-0209)"
+    },
+    {
+      "index": 5643,
+      "label": "Non-Attack",
+      "record_sha256": "ec5e023762a63843081f8ca841aff342111253d5c6e9201acf59d8dc766f3250",
+      "rule_name": "Nginx range 过滤器整形溢出漏洞 (CVE–2017–7529)"
+    },
+    {
+      "index": 5755,
+      "label": "Non-Attack",
+      "record_sha256": "f00283cf8a7626f887114d135c7bd1665844b87a463134efa72895f858be046c",
+      "rule_name": "Microsoft SharePoint 跨站脚本漏洞"
+    },
+    {
+      "index": 7523,
+      "label": "Non-Attack",
+      "record_sha256": "1999420a1e2d0d28f6512cc559e5434e32078ea590737d3a908795c050a16e3e",
+      "rule_name": "发现Web空口令登录行为"
+    },
+    {
+      "index": 4478,
+      "label": "Non-Attack",
+      "record_sha256": "b836900f006eb2de5372e7cbc403794b8670708b6ab364cdbbfb479c98f2e3f8",
+      "rule_name": "Java代码执行攻击(机器学习)"
+    },
+    {
+      "index": 5575,
+      "label": "Non-Attack",
+      "record_sha256": "d4e2ecd3469980e2b8f1f01ff6568aaecb2bd95d52fb873f5929bf47cfb95d3e",
+      "rule_name": "Spring Cloud Function SpEL表达式注入漏洞(CVE-2022-22963)"
+    },
+    {
+      "index": 5515,
+      "label": "Non-Attack",
+      "record_sha256": "9f911ccc3f87e3a5af258fc1561bbb4d4a54402e39d344f869c187bf25f9e43b",
+      "rule_name": "Bash远程代码执行漏洞(CVE-2014-6271)"
+    },
+    {
+      "index": 5033,
+      "label": "Non-Attack",
+      "record_sha256": "1a320daa110d0215f2d8ace0c504686cea30cdc73990ec28c4b2209fd8101a1e",
+      "rule_name": "发现脚本源码泄露"
+    },
+    {
+      "index": 700,
+      "label": "Non-Attack",
+      "record_sha256": "db55f2bd4d2d29c99156c754a45e4b61eaa0a5a0c8f2d21964e949a6f0636f2a",
+      "rule_name": "发现黑客工具Nmap扫描行为"
+    },
+    {
+      "index": 2996,
+      "label": "Non-Attack",
+      "record_sha256": "2f2a99e23c0a40348cee99dbe430cb31854fe18ed8e7f516ac5d09c684fa9feb",
+      "rule_name": "基于Basic Authentication认证弱口令"
+    },
+    {
+      "index": 370,
+      "label": "Non-Attack",
+      "record_sha256": "555528ec90697836008faab6eba0f7051ac1c047e988ad91ce4a6df5ed6ad348",
+      "rule_name": "Elasticsearch未授权访问漏洞"
+    },
+    {
+      "index": 5976,
+      "label": "Non-Attack",
+      "record_sha256": "3a835342a21ec39e3ae75606f7eba96a9e5f9508093e8cde48050414e32f0d45",
+      "rule_name": "异常页面导致服务器路径泄漏"
+    },
+    {
+      "index": 3380,
+      "label": "Non-Attack",
+      "record_sha256": "1996895e4eb80478661058ceca6eff87fbf31d5e32037fb3dbe2cd4571bb5a5a",
+      "rule_name": "Spring-Cloud-Config-Server目录穿越漏洞(CVE-2020-5405)"
+    },
+    {
+      "index": 3631,
+      "label": "Non-Attack",
+      "record_sha256": "9125bdca97e9b6840d60cf574e417a2704c831f2925318e0b15efbdfb7860840",
+      "rule_name": "Spring Framework 远程命令执行漏洞(CVE-2022-22965)"
+    },
+    {
+      "index": 6301,
+      "label": "Non-Attack",
+      "record_sha256": "aebcf9ccbfeaf415e173d9391d9453a75c5812b40b88221700034d509e225943",
+      "rule_name": "Flink未授权访问漏洞"
+    },
+    {
+      "index": 3949,
+      "label": "Non-Attack",
+      "record_sha256": "4f8d4b5b06114f352a22f185deaac9c6461312e5a341a9486c91fb31668da533",
+      "rule_name": "Oracle Fusion Middleware Oracle Reports Developer组件未明安全漏洞"
+    },
+    {
+      "index": 5731,
+      "label": "Non-Attack",
+      "record_sha256": "45b844b5f0525339ddc77fc5c05cf8243e5a223e6b14653d08c634128cd90d7f",
+      "rule_name": "Cisco UCS Manager 远程命令执行"
+    },
+    {
+      "index": 2308,
+      "label": "Non-Attack",
+      "record_sha256": "c8fa44dad1488ac8dfb1885391b34288da8ed5b641bc6312711789a0c19f08e8",
+      "rule_name": ".svn目录源代码信息泄露"
+    },
+    {
+      "index": 2067,
+      "label": "Non-Attack",
+      "record_sha256": "77f7487445cacd795c6edcce887b9c5ca396b0c8536e4f9536e6c4aefe9371ac",
+      "rule_name": "发现Shiro响应中有DeleteMe"
+    },
+    {
+      "index": 3850,
+      "label": "Non-Attack",
+      "record_sha256": "dbc881e543d397503d9f442f75ee701b3eb324893f4580cf4bd77790d2c91094",
+      "rule_name": "Go pprof 调试信息泄露漏洞"
+    },
+    {
+      "index": 532,
+      "label": "Non-Attack",
+      "record_sha256": "2010abaefedefc21d41be9edc1717e79f4f77a3018dc984d6d86350c386df419",
+      "rule_name": "GIT项目源代码探测"
+    },
+    {
+      "index": 2099,
+      "label": "Non-Attack",
+      "record_sha256": "c15230f50789e79433c1d12ecbadbb9f5ddf7f08d0b02f33f8dddf4ee217682c",
+      "rule_name": "发现应用程序错误信息"
+    },
+    {
+      "index": 8299,
+      "label": "Non-Attack",
+      "record_sha256": "a66f3a0df894ed4296a0f173b42711ddeda1d6e28334ee5f01914c492bdb9f3c",
+      "rule_name": "发现敏感目录/文件探测行为"
+    },
+    {
+      "index": 6350,
+      "label": "Non-Attack",
+      "record_sha256": "c7da6685fef45eacff091c3763656d6ea72fc1b1bf00ef3e758ea9117890a0f8",
+      "rule_name": "Bash Shellshock 任意命令执行漏洞(CVE-2014-6271)"
+    },
+    {
+      "index": 4473,
+      "label": "Non-Attack",
+      "record_sha256": "90b6e426cf23851c507e702719ce49e72b951275c7f4809c7ec3b261c00d03d3",
+      "rule_name": "发现Web服务探测行为"
+    },
+    {
+      "index": 6447,
+      "label": "Non-Attack",
+      "record_sha256": "05331affce7cd6cd524afe91c888e46c6de9d2fb265fc352838630d0f0857ca8",
+      "rule_name": "CloudBees Script Security Plugin 任意代码执行漏洞(CVE-2019-1003000)"
+    },
+    {
+      "index": 3227,
+      "label": "Non-Attack",
+      "record_sha256": "1edf47aa832690b4d5a3adc34ff70e915ac500adab1a2a5056b6fbbfbeecef1e",
+      "rule_name": "Nacos Derby远程命令执行漏洞(QVD-2024-26473)"
+    },
+    {
+      "index": 3032,
+      "label": "Non-Attack",
+      "record_sha256": "d3437569396968e5247632c631afbd68b5fedf87f6a661c4ae9c8c764de708cf",
+      "rule_name": "CSS/JS脚本文件编码不规范(机器学习/编码不规范)"
+    },
+    {
+      "index": 6152,
+      "label": "Non-Attack",
+      "record_sha256": "6577ce30a7e87bc935e6a87e038f0e5130afb6bcb48d6bef6cc05e88ea8594cc",
+      "rule_name": "Spring-Cloud-Config-Server目录遍历漏洞(CVE-2020-5410)"
+    },
+    {
+      "index": 636,
+      "label": "Non-Attack",
+      "record_sha256": "afd81d1c99a57ee2d9613d1a35ff86d3418e308c098579dbaa557c42a94dea15",
+      "rule_name": "3C环境自动监测动态管控系统任意文件下载漏洞"
+    },
+    {
+      "index": 887,
+      "label": "Non-Attack",
+      "record_sha256": "174b539f93cbc30bcb6fb71398fcfb005bcc21a06bf639c6a243b1256a31a683",
+      "rule_name": "发现数据库敏感文件下载"
+    },
+    {
+      "index": 2662,
+      "label": "Non-Attack",
+      "record_sha256": "7ca25f990986d4a78c4e848fb59293d2fab7944c30ee7d783782f2d4e62cb19c",
+      "rule_name": "React Server Components 远程代码执行漏洞(CVE-2025-55182)"
+    },
+    {
+      "index": 189,
+      "label": "Non-Attack",
+      "record_sha256": "871c792193e7ac18dfd90790aa0fb93a0471abe7cd80a5c6219072bd8bd1ea1c",
+      "rule_name": "发现Palo Alto Networks scaninfo 扫描流量"
+    },
+    {
+      "index": 6552,
+      "label": "Non-Attack",
+      "record_sha256": "93095db7466efc597377bf499ae6ca1fe9682c849b410598cc8746f26ce3964a",
+      "rule_name": "发现扫描工具-zgrab"
+    },
+    {
+      "index": 4717,
+      "label": "Non-Attack",
+      "record_sha256": "b0d11c66ff8dc8bbdb9a9f50c8c1ea8aaf5ff0dc26959df7c47ce5f9e1f4dc65",
+      "rule_name": "基于Basic Authentication认证的暴力破解"
+    },
+    {
+      "index": 1652,
+      "label": "Non-Attack",
+      "record_sha256": "15bb99ca0241b3ab432e9d95aa916b19c6a92ab009d1cc15edfe0e3c93e2446c",
+      "rule_name": "Web组件信息泄露漏洞"
+    },
+    {
+      "index": 7783,
+      "label": "Non-Attack",
+      "record_sha256": "82a78331af73fd7b60a69e4c7accb2fc6cf2f907c26e1d810991ac986279ce1d",
+      "rule_name": "DS_Store 信息泄露"
+    },
+    {
+      "index": 2661,
+      "label": "Non-Attack",
+      "record_sha256": "16bd0958e4b240a981927e781710bb69a3dbd56a0142a32f13420572cc185845",
+      "rule_name": "Druid 存在未授权访问漏洞"
+    },
+    {
+      "index": 7025,
+      "label": "Non-Attack",
+      "record_sha256": "ca4738a041d4a7a0b321d466d6d8dede45bca7d795e903646d837b85bbda3ff7",
+      "rule_name": "Java Struts2代码注入漏洞"
+    },
+    {
+      "index": 7045,
+      "label": "Non-Attack",
+      "record_sha256": "aafa772c08178528ddb02ab082f43561a991d6d33690639fda174a2a272f04c0",
+      "rule_name": "Apache Druid 远程代码执行漏洞(CVE-2021-25646)"
+    },
+    {
+      "index": 4054,
+      "label": "Non-Attack",
+      "record_sha256": "7e48b602fa46205655625d308b69d0da6fd32f0e9bc13ef15aa3f6019a3e62e1",
+      "rule_name": "Kibana 未授权访问漏洞"
+    },
+    {
+      "index": 7064,
+      "label": "Non-Attack",
+      "record_sha256": "1b85339c3709fa990b16094def286e674a02b0588998fd9049be43019a2f1dc0",
+      "rule_name": "发现使用PUT方式上传可疑文件"
+    },
+    {
+      "index": 7491,
+      "label": "Non-Attack",
+      "record_sha256": "3c17daff16835f198ebb9b1db279574ebe51fe1c005d8f1f1e5beff83aedfd41",
+      "rule_name": "Horde Groupware后门漏洞"
+    },
+    {
+      "index": 183,
+      "label": "Non-Attack",
+      "record_sha256": "a0c9aafe493d8ddfac42a6d7dce871704e56f32823dd1a39a3628246ec18494b",
+      "rule_name": "Python代码执行攻击(机器学习)"
+    },
+    {
+      "index": 7129,
+      "label": "Non-Attack",
+      "record_sha256": "914600cef9a125be827c2649e4dc9938b012984db1703f21a042839584613c8e",
+      "rule_name": "Swagger未授权访问行为"
+    },
+    {
+      "index": 7941,
+      "label": "Non-Attack",
+      "record_sha256": "96a667c3b000494a9abea86bcf31005f8e0fc7e1b348cc3b515540b20c4cead9",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 2208,
+      "label": "Non-Attack",
+      "record_sha256": "0396bf3864baa74a594b01fce4f0a6beed82474d3a9680e711db512dd8e5d7b8",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 8153,
+      "label": "Non-Attack",
+      "record_sha256": "b2136abcb806ab64515a9884390320179a6c326d105a7c0386440f01a0a96532",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 801,
+      "label": "Non-Attack",
+      "record_sha256": "d29b97192d69e8bfc945bec954327815a8109bd777df0948d6bd425e5b9b9c7c",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 6885,
+      "label": "Non-Attack",
+      "record_sha256": "a37e149532262c7ffa1d0d0e1fe139dcfdf17dca3a435030fb986b9a3f8a739f",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 6712,
+      "label": "Non-Attack",
+      "record_sha256": "fe5eb34de1e7789e49f4766fe6ded773174b345debd6f2a8b703946091afa9e5",
+      "rule_name": "发现目录穿越攻击行为"
+    },
+    {
+      "index": 7530,
+      "label": "Non-Attack",
+      "record_sha256": "a8f2d23711cecfb456486a4b1d759f66a72c75d226f38b236cf509f945322207",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 7050,
+      "label": "Non-Attack",
+      "record_sha256": "e3709d45e7d14e16fbfa3fe378dffab1d5ef5891a5a5488537ee9efb35990c25",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 8225,
+      "label": "Non-Attack",
+      "record_sha256": "63765813e67214fa1c89090ee97a00c723b45065cf412873fe246395c554d1f6",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 2355,
+      "label": "Non-Attack",
+      "record_sha256": "3244af06079b2b5fc8990712ae01dfe01cdd85ceab5f68d8df5a174d4ebc25e7",
+      "rule_name": "SQL注入攻击"
+    },
+    {
+      "index": 2346,
+      "label": "Non-Attack",
+      "record_sha256": "660737b002d9ac59e471dc88f108cec173321822531f5a3a3a1ae8ebf73c1555",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 6426,
+      "label": "Non-Attack",
+      "record_sha256": "958bb6d1fd12c072b336770eeb3dbd8f186e7c2505327aa05b860aadc8fd8437",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 1705,
+      "label": "Non-Attack",
+      "record_sha256": "60ef2f557bd3e330545993b1246ad10ae0354364573ceb863117a880e8a96581",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 734,
+      "label": "Non-Attack",
+      "record_sha256": "9e0e2042cb3dccac2ad0a45db15105a9dea352ff8e60c030bb048b0b688b7b22",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 5866,
+      "label": "Non-Attack",
+      "record_sha256": "8bef786916e4206d72207e48e029e69a79f3d8154be20400fb437c8a7f340999",
+      "rule_name": "发现使用HTTP代理行为"
+    },
+    {
+      "index": 1779,
+      "label": "Non-Attack",
+      "record_sha256": "f565206367221d9d2d2bdd8470213948798a11bb9eba238bfeccac8b9bb23dd6",
+      "rule_name": "发现使用HTTP代理行为"
+    },
+    {
+      "index": 3395,
+      "label": "Non-Attack",
+      "record_sha256": "82acd3d6f12a97825f3ca922f78f6096201fa7a17c086f8ea4626bb2b6c73aab",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 6067,
+      "label": "Non-Attack",
+      "record_sha256": "7bddfe340951ad1deb3dd90582cf8a7a03eeef2f8c19ab8fccc097a4bfcc091a",
+      "rule_name": "SQL注入攻击"
+    },
+    {
+      "index": 3257,
+      "label": "Non-Attack",
+      "record_sha256": "46185be0a57d80ce36809faa57292cc1c433b15ee61a1b460574846f90fef3f6",
+      "rule_name": "疑似访问/下载脚本文件"
+    },
+    {
+      "index": 6381,
+      "label": "Non-Attack",
+      "record_sha256": "ff3aa820e0dbe585dd5b00d7ac85b3c9a78100f8817e05979f2ab1aff3d4f654",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 1584,
+      "label": "Non-Attack",
+      "record_sha256": "eb31eb8e57fe0e71fa8031831f73ce8c41947631ee8ec916083deb83b81ed4e2",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 4823,
+      "label": "Non-Attack",
+      "record_sha256": "200b2a55e81f57188717db223fc3e692bbf07c27855c592d50de73ef55854d31",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 1225,
+      "label": "Non-Attack",
+      "record_sha256": "2f0d1d0a65fa17edd8979ccb1353d503261541250f517c376096560a6e6ef473",
+      "rule_name": "SQL注入攻击"
+    },
+    {
+      "index": 1465,
+      "label": "Non-Attack",
+      "record_sha256": "ef7ecef1f961d67b48a41bb5e79a540cfdb4deb8d88deeafe85570933ae423a8",
+      "rule_name": "SQL注入攻击"
+    },
+    {
+      "index": 5449,
+      "label": "Non-Attack",
+      "record_sha256": "cc811b236d0a78d8c364524dc5d21956225283d2fcea530bb054ca82564a7da7",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 1344,
+      "label": "Non-Attack",
+      "record_sha256": "d2d32eeb3c59d25754112fb4d52c8bea2bf77becc62d7e3184183be41ff11710",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 5344,
+      "label": "Non-Attack",
+      "record_sha256": "30dff0981a6118a808bdc1f370536e1387aca9cc9788f32621b3e46501119775",
+      "rule_name": "SQL注入(编码不规范)"
+    },
+    {
+      "index": 4458,
+      "label": "Non-Attack",
+      "record_sha256": "9359594a463f9695b6a67a74c22932fdd5fd0982a50b7c0068cd96f349b2300d",
+      "rule_name": "SQL注入攻击"
+    },
+    {
+      "index": 3338,
+      "label": "Non-Attack",
+      "record_sha256": "319afdd01b8bb44584efa4a2024f8df3d5016cbeacada642adfa8c355a0db444",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 5245,
+      "label": "Non-Attack",
+      "record_sha256": "30f40048319d883450aac1e72650b271ab2b133ff3c5727019530f911a3779bf",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 7197,
+      "label": "Non-Attack",
+      "record_sha256": "50f26afb5f5c30ddd038ba5f8031ab2aa75672b92d5d1e8034e7b60887e5a84c",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 2463,
+      "label": "Non-Attack",
+      "record_sha256": "69e47aef13cb473abc4035fff6132cf90467f620ef616ec75fa37ee27206af86",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 5000,
+      "label": "Non-Attack",
+      "record_sha256": "8fba839d2f56fe4de3ebaaa5f9b185eb6e19d35b6a99e8ae4916dc6a4cb0a4a8",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 6610,
+      "label": "Non-Attack",
+      "record_sha256": "d87a5207cf2dbdc5c1e45f68712af25ef221460aad69fd3b04eb33dd842b5335",
+      "rule_name": "SQL注入攻击"
+    },
+    {
+      "index": 7227,
+      "label": "Non-Attack",
+      "record_sha256": "fffe70aa8fcd3514ed0765dd23dd74007c4c99be45e85f9ed581d18e824e4c5c",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 3097,
+      "label": "Non-Attack",
+      "record_sha256": "f3de385f1c9ad2a2fc029fb93f13a6ba8e3c88746e2137e0ec4ea5075d3366d1",
+      "rule_name": "SQL注入攻击(机器学习)"
+    },
+    {
+      "index": 2435,
+      "label": "Non-Attack",
+      "record_sha256": "9500554771cf51b0de0189fabb2c09d845a3a3a0a8405087555e11c4d169f29a",
+      "rule_name": "SQL注入攻击(机器学习/编码不规范)"
+    },
+    {
+      "index": 1826,
+      "label": "Non-Attack",
+      "record_sha256": "ef7f74653f0e308b921ada573380c34e4bb89fe04d1d51a18bf7c468158c99a4",
+      "rule_name": "SQL注入攻击(机器学习)"
+    }
+  ],
+  "selection_rule": "shuffle within label; maximize unique rule_name before deterministic fill; freeze before model outputs"
+}

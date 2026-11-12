@@ -1,0 +1,93 @@
+{
+  "field_deletion_flip_rates": {
+    "attack_type": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "dip": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "dport": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "host": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 93
+    },
+    "kill_chain_all": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "method": {
+      "flips": 1,
+      "rate": 0.010526315789473684,
+      "tested": 95
+    },
+    "parameter": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 72
+    },
+    "proto": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "req_body": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 39
+    },
+    "req_header": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "rsp_body": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 69
+    },
+    "rsp_header": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 85
+    },
+    "rsp_status": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "rule_name": {
+      "flips": 3,
+      "rate": 0.031578947368421054,
+      "tested": 95
+    },
+    "sip": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "sport": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    },
+    "uri": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 95
+    }
+  },
+  "model": "qwen3_8_2b_q4km",
+  "n_attack_full_correct": 95,
+  "n_mdo1": 4,
+  "n_mdo1_with_at_least_one_content_only_decisive_field": 1
+}

@@ -1,0 +1,15 @@
+{
+  "decision_flip_rate_among_attack_trials": 0.5,
+  "domains": [
+    "code_review",
+    "soc"
+  ],
+  "false_positive_on_complete_runs": 0.0,
+  "fraction_mdo_1": 1.0,
+  "median_mdo": 1,
+  "n_attack_trials": 48,
+  "n_cases": 24,
+  "n_decision_flips": 24,
+  "seed": 20260824,
+  "whynot_detection_on_any_omission": 1.0
+}

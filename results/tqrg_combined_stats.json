@@ -1,0 +1,56 @@
+{
+  "cohort_A": {
+    "full_accuracy": 0.8421052631578947,
+    "full_accuracy_ci95": [
+      0.6243452472967093,
+      0.9447952836146585
+    ],
+    "full_correct": 16,
+    "mdo1": 9,
+    "mdo2": 2,
+    "mean_random_hit_probability_at_mdo_among_vulnerable": 0.40303030303030307,
+    "n": 19,
+    "vulnerable_leq2": 11,
+    "vulnerable_leq2_ci95": [
+      0.44404355834740666,
+      0.8583535614521796
+    ],
+    "vulnerable_leq2_rate_cond_full": 0.6875
+  },
+  "cohort_B": {
+    "full_accuracy": 0.8,
+    "full_accuracy_ci95": [
+      0.6269430358685175,
+      0.9049489282271013
+    ],
+    "full_correct": 24,
+    "mdo1": 14,
+    "mdo2": 1,
+    "mean_random_hit_probability_at_mdo_among_vulnerable": 0.35444444444444445,
+    "n": 30,
+    "vulnerable_leq2": 15,
+    "vulnerable_leq2_ci95": [
+      0.42709962442674276,
+      0.7884063244045122
+    ],
+    "vulnerable_leq2_rate_cond_full": 0.625
+  },
+  "pooled_descriptive": {
+    "full_accuracy": 0.8163265306122449,
+    "full_accuracy_ci95": [
+      0.6864239739710013,
+      0.9002365893792968
+    ],
+    "full_correct": 40,
+    "mdo1": 23,
+    "mdo2": 3,
+    "mean_random_hit_probability_at_mdo_among_vulnerable": 0.375,
+    "n": 49,
+    "vulnerable_leq2": 26,
+    "vulnerable_leq2_ci95": [
+      0.49505880837257693,
+      0.7786547112682372
+    ],
+    "vulnerable_leq2_rate_cond_full": 0.65
+  }
+}

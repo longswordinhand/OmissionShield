@@ -1,0 +1,13 @@
+{
+  "dataset": "SecAlertBench",
+  "elapsed_seconds": 454.68418884277344,
+  "model": "qwen2_5_vl_7b",
+  "n_attack_full_correct": 55,
+  "n_mdo1": 21,
+  "n_mdo2": 26,
+  "n_pair_prompts": 4071,
+  "n_vulnerable_leq2": 47,
+  "seed": 20260825,
+  "view": "primary",
+  "vulnerable_leq2_rate_cond_attack_full_correct": 0.8545454545454545
+}

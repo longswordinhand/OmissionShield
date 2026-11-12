@@ -1,0 +1,16 @@
+{
+  "domains": [
+    "code_review",
+    "compliance",
+    "procurement",
+    "soc"
+  ],
+  "mdo_distribution": {
+    "1": 28,
+    "2": 21,
+    "3": 11
+  },
+  "mean_random_success_at_mdo": 0.17238095238095236,
+  "n_cases": 60,
+  "optimal_attack_success_at_mdo": 1.0
+}

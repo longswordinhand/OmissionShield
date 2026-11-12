@@ -1,0 +1,46 @@
+[
+  {
+    "n_evidence": 10,
+    "gate_repeats": 2000,
+    "commit_repeats": 100,
+    "commitment_build_median_us": 54.049,
+    "commitment_build_p95_us": 65.799,
+    "gate_full_median_us": 10.855,
+    "gate_full_p95_us": 28.461,
+    "gate_omit_median_us": 7.916,
+    "gate_omit_p95_us": 9.646
+  },
+  {
+    "n_evidence": 100,
+    "gate_repeats": 1000,
+    "commit_repeats": 100,
+    "commitment_build_median_us": 99.3655,
+    "commitment_build_p95_us": 102.136,
+    "gate_full_median_us": 25.432,
+    "gate_full_p95_us": 27.245,
+    "gate_omit_median_us": 25.444,
+    "gate_omit_p95_us": 27.252
+  },
+  {
+    "n_evidence": 1000,
+    "gate_repeats": 300,
+    "commit_repeats": 100,
+    "commitment_build_median_us": 1013.0585,
+    "commitment_build_p95_us": 1038.675,
+    "gate_full_median_us": 178.929,
+    "gate_full_p95_us": 190.267,
+    "gate_omit_median_us": 179.834,
+    "gate_omit_p95_us": 189.094
+  },
+  {
+    "n_evidence": 10000,
+    "gate_repeats": 50,
+    "commit_repeats": 100,
+    "commitment_build_median_us": 11145.234,
+    "commitment_build_p95_us": 11637.164,
+    "gate_full_median_us": 3615.29,
+    "gate_full_p95_us": 3895.008,
+    "gate_omit_median_us": 2981.219,
+    "gate_omit_p95_us": 3069.794
+  }
+]

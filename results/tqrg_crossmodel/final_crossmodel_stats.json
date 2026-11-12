@@ -1,0 +1,52 @@
+{
+  "qwen3": {
+    "n_commits": 49,
+    "full_correct": 40,
+    "full_accuracy": 0.8163265306122449,
+    "full_accuracy_ci95": [
+      0.6864239739710013,
+      0.9002365893792968
+    ],
+    "mdo1": 23,
+    "mdo2": 3,
+    "vulnerable_leq2": 26,
+    "vulnerable_leq2_rate_cond_full_correct": 0.65,
+    "vulnerable_leq2_ci95": [
+      0.49505880837257693,
+      0.7786547112682372
+    ]
+  },
+  "qwen2_5_vl_7b": {
+    "n_commits": 49,
+    "full_correct": 44,
+    "full_accuracy": 0.8979591836734694,
+    "full_accuracy_ci95": [
+      0.7824363845080409,
+      0.9556204532552373
+    ],
+    "mdo1": 14,
+    "mdo2": 6,
+    "vulnerable_leq2": 20,
+    "vulnerable_leq2_rate_cond_full_correct": 0.45454545454545453,
+    "vulnerable_leq2_ci95": [
+      0.31705234142220895,
+      0.5993381680103802
+    ]
+  },
+  "qwen2_5_vl_3b": {
+    "n_commits": 49,
+    "full_correct": 6,
+    "full_accuracy": 0.12244897959183673,
+    "full_accuracy_ci95": [
+      0.05734825790240154,
+      0.2424439729375651
+    ],
+    "mdo1": 6,
+    "mdo1_rate_cond_full_correct": 1.0,
+    "mdo1_ci95": [
+      0.6096657120978346,
+      1.0
+    ],
+    "interpretation": "Secondary negative-control evidence only because full-evidence competence is 6/49."
+  }
+}

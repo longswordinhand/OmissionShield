@@ -1,0 +1,10 @@
+{
+  "n_candidates": 118,
+  "selected": {
+    "attack_tpr": 0.9,
+    "balanced_accuracy": 0.535,
+    "min_class_rate": 0.17,
+    "nonattack_tnr": 0.17,
+    "threshold": -1.375
+  }
+}

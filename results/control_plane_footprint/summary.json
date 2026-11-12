@@ -1,0 +1,16 @@
+{
+  "aggregate_control_to_flat_manifest_ratio": 2.0315264597072544,
+  "aggregate_raw_to_control_ratio": 13.362311955661124,
+  "control_plane_bytes_total": 12630,
+  "definition": "raw textual patch UTF-8 bytes, canonical flat source-ID manifest bytes, and a minimal source-ID-plus-parent-edge encoding; excludes cryptographic signatures and implementation object overhead",
+  "flat_manifest_bytes_total": 6217,
+  "max_ratio": 86.05,
+  "median_per_commit_control_plane_bytes": 196,
+  "median_per_commit_control_to_flat_manifest_ratio": 2.036363636363636,
+  "median_per_commit_flat_manifest_bytes": 95,
+  "median_per_commit_raw_patch_bytes": 2476,
+  "median_per_commit_raw_to_control_ratio": 11.398305084745763,
+  "min_ratio": 3.216019417475728,
+  "n_commits": 49,
+  "raw_patch_bytes_total": 168766
+}

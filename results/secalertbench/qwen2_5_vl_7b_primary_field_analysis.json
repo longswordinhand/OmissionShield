@@ -1,0 +1,94 @@
+{
+  "field_deletion_flip_rates": {
+    "attack_type": {
+      "flips": 7,
+      "rate": 0.12727272727272726,
+      "tested": 55
+    },
+    "dip": {
+      "flips": 3,
+      "rate": 0.05454545454545454,
+      "tested": 55
+    },
+    "dport": {
+      "flips": 1,
+      "rate": 0.01818181818181818,
+      "tested": 55
+    },
+    "host": {
+      "flips": 6,
+      "rate": 0.1111111111111111,
+      "tested": 54
+    },
+    "kill_chain_all": {
+      "flips": 10,
+      "rate": 0.18181818181818182,
+      "tested": 55
+    },
+    "method": {
+      "flips": 1,
+      "rate": 0.01818181818181818,
+      "tested": 55
+    },
+    "parameter": {
+      "flips": 2,
+      "rate": 0.044444444444444446,
+      "tested": 45
+    },
+    "proto": {
+      "flips": 2,
+      "rate": 0.03636363636363636,
+      "tested": 55
+    },
+    "req_body": {
+      "flips": 2,
+      "rate": 0.06896551724137931,
+      "tested": 29
+    },
+    "req_header": {
+      "flips": 9,
+      "rate": 0.16363636363636364,
+      "tested": 55
+    },
+    "rsp_body": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 36
+    },
+    "rsp_header": {
+      "flips": 2,
+      "rate": 0.0425531914893617,
+      "tested": 47
+    },
+    "rsp_status": {
+      "flips": 0,
+      "rate": 0.0,
+      "tested": 55
+    },
+    "rule_name": {
+      "flips": 16,
+      "rate": 0.2909090909090909,
+      "tested": 55
+    },
+    "sip": {
+      "flips": 3,
+      "rate": 0.05454545454545454,
+      "tested": 55
+    },
+    "sport": {
+      "flips": 1,
+      "rate": 0.01818181818181818,
+      "tested": 55
+    },
+    "uri": {
+      "flips": 3,
+      "rate": 0.05454545454545454,
+      "tested": 55
+    }
+  },
+  "model": "qwen2_5_vl_7b",
+  "n_attack_full_correct": 55,
+  "n_mdo1": 21,
+  "n_mdo1_with_at_least_one_content_only_decisive_field": 17,
+  "view": "primary"
+}

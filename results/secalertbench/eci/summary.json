@@ -1,0 +1,9 @@
+{
+  "complete_accept_rate": 1.0,
+  "exact_missing_id_rate": 1.0,
+  "n_alerts": 200,
+  "n_complete": 200,
+  "n_fields_per_alert": 18,
+  "n_single_field_suppressions": 3600,
+  "suppression_detection_rate": 1.0
+}

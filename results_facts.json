@@ -1,0 +1,283 @@
+{
+  "cohort_A": {
+    "full_accuracy": 0.8421052631578947,
+    "full_correct": 16,
+    "mdo1": 9,
+    "mdo2": 2,
+    "n": 19,
+    "random_hit_probability": 0.40303030303030307,
+    "vulnerable": 11,
+    "vulnerable_rate": 0.6875
+  },
+  "cohort_B": {
+    "full_accuracy": 0.8,
+    "full_correct": 24,
+    "mdo1": 14,
+    "mdo2": 1,
+    "n": 30,
+    "random_hit_probability": 0.35444444444444445,
+    "vulnerable": 15,
+    "vulnerable_rate": 0.625
+  },
+  "composition": {
+    "all_complete_accepted": true,
+    "all_layer_attacks_rejected": true,
+    "all_missing_sets_exact": true,
+    "design": "balanced fan-in evidence compression tree; one branch suppressed at each possible layer",
+    "fanin": 4,
+    "n_attack_conditions": 14,
+    "repeats_complete_gate": 200,
+    "settings": [
+      {
+        "all_attacks_rejected": true,
+        "all_exact_missing": true,
+        "attack_layers_tested": 2,
+        "complete_accept": true,
+        "fanin": 4,
+        "gate_median_us": 15.646,
+        "gate_p95_us": 36.415,
+        "missing_counts_by_layer": [
+          1,
+          4
+        ],
+        "n_layers": 2,
+        "n_sources": 16
+      },
+      {
+        "all_attacks_rejected": true,
+        "all_exact_missing": true,
+        "attack_layers_tested": 3,
+        "complete_accept": true,
+        "fanin": 4,
+        "gate_median_us": 31.923000000000002,
+        "gate_p95_us": 35.445,
+        "missing_counts_by_layer": [
+          1,
+          4,
+          16
+        ],
+        "n_layers": 3,
+        "n_sources": 64
+      },
+      {
+        "all_attacks_rejected": true,
+        "all_exact_missing": true,
+        "attack_layers_tested": 4,
+        "complete_accept": true,
+        "fanin": 4,
+        "gate_median_us": 132.713,
+        "gate_p95_us": 140.048,
+        "missing_counts_by_layer": [
+          1,
+          4,
+          16,
+          64
+        ],
+        "n_layers": 4,
+        "n_sources": 256
+      },
+      {
+        "all_attacks_rejected": true,
+        "all_exact_missing": true,
+        "attack_layers_tested": 5,
+        "complete_accept": true,
+        "fanin": 4,
+        "gate_median_us": 496.778,
+        "gate_p95_us": 536.41,
+        "missing_counts_by_layer": [
+          1,
+          4,
+          16,
+          64,
+          256
+        ],
+        "n_layers": 5,
+        "n_sources": 1024
+      }
+    ]
+  },
+  "control_plane_footprint": {
+    "aggregate_control_to_flat_manifest_ratio": 2.0315264597072544,
+    "aggregate_raw_to_control_ratio": 13.362311955661124,
+    "control_plane_bytes_total": 12630,
+    "definition": "raw textual patch UTF-8 bytes versus a minimal source-ID-plus-parent-edge encoding; excludes cryptographic signatures and implementation object overhead",
+    "flat_manifest_bytes_total": 6217,
+    "max_ratio": 86.05,
+    "median_per_commit_control_plane_bytes": 196,
+    "median_per_commit_control_to_flat_manifest_ratio": 2.036363636363636,
+    "median_per_commit_flat_manifest_bytes": 95,
+    "median_per_commit_raw_patch_bytes": 2476,
+    "median_per_commit_raw_to_control_ratio": 11.398305084745763,
+    "min_ratio": 3.216019417475728,
+    "n_commits": 49,
+    "raw_patch_bytes_total": 168766
+  },
+  "controlled": {
+    "mdo1": 28,
+    "mdo2": 21,
+    "mdo3": 11,
+    "n_cases": 60,
+    "random_success": 0.17238095238095236,
+    "targeted_success": 1.0
+  },
+  "eci": {
+    "complete_traces": 49,
+    "detected": 147,
+    "exact_missing": 147,
+    "single_suppressions": 147
+  },
+  "mcp_boundary": {
+    "attack_missing_exact": true,
+    "attack_protected_commits": false,
+    "attack_unprotected_commits": true,
+    "full_mcp_sdk_conformance_claimed": false,
+    "protected_sensitive_tool_boundary_median_us": 88.78,
+    "protected_sensitive_tool_boundary_p95_us": 104.585,
+    "protocol_methods_exercised": [
+      "initialize",
+      "tools/list",
+      "tools/call"
+    ],
+    "repeats": 200,
+    "transport": "JSON-RPC 2.0 over child-process stdio"
+  },
+  "mechanism_ablation": {
+    "design": "balanced fan-in transformed-evidence trees; sink sees one derived root only",
+    "direct_manifest_attack_reject": 14,
+    "direct_manifest_complete_accept": 4,
+    "eci_attack_reject": 14,
+    "eci_complete_accept": 4,
+    "eci_exact_missing_attack_conditions": 14,
+    "n_attack_conditions": 14,
+    "n_complete_conditions": 4,
+    "positive_provenance_attack_reject": 0,
+    "positive_provenance_complete_accept": 4,
+    "terminal_only_attack_reject": 0,
+    "terminal_only_complete_accept": 4
+  },
+  "overhead": {
+    "commit_us_n10": 54.934993386268616,
+    "commit_us_n100": 150.9934663772583,
+    "commit_us_n1000": 1387.9872858524323,
+    "commit_us_n10000": 14971.393160521984,
+    "e2e_gate_median_us": 8.761,
+    "e2e_gate_p95_us": 9.712,
+    "e2e_repeats": 5000,
+    "gate_median_us_n10": 3.2575,
+    "gate_median_us_n100": 16.738,
+    "gate_median_us_n1000": 136.7525,
+    "gate_median_us_n10000": 3284.952,
+    "gate_p95_us_n10": 4.107,
+    "gate_p95_us_n100": 17.597,
+    "gate_p95_us_n1000": 142.623,
+    "gate_p95_us_n10000": 3334.593
+  },
+  "pilot": {
+    "changed": 18,
+    "full_accuracy": 0.95,
+    "n_cases": 20
+  },
+  "qwen2_5_vl_3b": {
+    "full_accuracy": 0.12244897959183673,
+    "full_accuracy_ci95": [
+      0.05734825790240154,
+      0.2424439729375651
+    ],
+    "full_correct": 6,
+    "mdo1": 6,
+    "mdo1_rate": 1.0,
+    "n": 49
+  },
+  "qwen2_5_vl_7b": {
+    "full_accuracy": 0.8979591836734694,
+    "full_accuracy_ci95": [
+      0.7824363845080409,
+      0.9556204532552373
+    ],
+    "full_correct": 44,
+    "mdo1": 14,
+    "mdo2": 6,
+    "n": 49,
+    "vulnerable": 20,
+    "vulnerable_ci95": [
+      0.31705234142220895,
+      0.5993381680103802
+    ],
+    "vulnerable_rate": 0.45454545454545453
+  },
+  "secalertbench_eci": {
+    "complete_accept_rate": 1.0,
+    "exact_missing_id_rate": 1.0,
+    "n_alerts": 200,
+    "n_complete": 200,
+    "n_fields_per_alert": 18,
+    "n_single_field_suppressions": 3600,
+    "suppression_detection_rate": 1.0
+  },
+  "secalertbench_qwen2_5_vl_7b": {
+    "attack_full_correct": 55,
+    "attack_tpr": 0.55,
+    "mdo1": 21,
+    "mdo2": 26,
+    "mean_random_hit_at_mdo": 0.10973360702709889,
+    "n_total": 200,
+    "nonattack_full_correct": 46,
+    "nonattack_tnr": 0.46,
+    "overall_accuracy": 0.505,
+    "vulnerable_leq2": 47,
+    "vulnerable_leq2_ci95": [
+      0.7383908706854773,
+      0.9244071085224069
+    ],
+    "vulnerable_leq2_rate": 0.8545454545454545
+  },
+  "secalertbench_qwen2_5_vl_7b_content_only": {
+    "attack_full_correct": 23,
+    "attack_tpr": 0.23,
+    "mdo1": 14,
+    "mdo1_ci95": [
+      0.4078552239138171,
+      0.7784237720752205
+    ],
+    "mdo1_rate": 0.6086956521739131,
+    "nonattack_full_correct": 95,
+    "nonattack_tnr": 0.95
+  },
+  "secalertbench_qwen3": {
+    "attack_full_correct": 95,
+    "attack_tpr": 0.95,
+    "mdo1": 4,
+    "mdo1_rate": 0.042105263157894736,
+    "nonattack_full_correct": 2,
+    "nonattack_tnr": 0.02,
+    "overall_accuracy": 0.485
+  },
+  "synthetic_multimodel": {
+    "n_variants": 60,
+    "qwen3b_changed": 28,
+    "qwen3b_full_correct": 28,
+    "qwen7b_changed": 29,
+    "qwen7b_full_correct": 29
+  },
+  "tests": {
+    "project_tests": 29
+  },
+  "tqrg_qwen3": {
+    "full_accuracy": 0.8163265306122449,
+    "full_accuracy_ci95": [
+      0.6864239739710013,
+      0.9002365893792968
+    ],
+    "full_correct": 40,
+    "mdo1": 23,
+    "mdo2": 3,
+    "n_commits": 49,
+    "random_hit_probability": 0.375,
+    "vulnerable_ci95": [
+      0.49505880837257693,
+      0.7786547112682372
+    ],
+    "vulnerable_leq2": 26,
+    "vulnerable_rate": 0.65
+  }
+}

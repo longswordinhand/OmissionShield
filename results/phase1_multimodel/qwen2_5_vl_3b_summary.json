@@ -1,0 +1,29 @@
+{
+  "attacked_visible_context_accuracy": 1.0,
+  "by_position": {
+    "first": {
+      "decision_flip_rate": 0.5,
+      "full_task_accuracy": 0.5,
+      "n": 20
+    },
+    "last": {
+      "decision_flip_rate": 0.45,
+      "full_task_accuracy": 0.45,
+      "n": 20
+    },
+    "middle": {
+      "decision_flip_rate": 0.45,
+      "full_task_accuracy": 0.45,
+      "n": 20
+    }
+  },
+  "decision_flip_rate": 0.4666666666666667,
+  "full_task_accuracy": 0.4666666666666667,
+  "generation_seconds": 2.4049155712127686,
+  "load_seconds": 2.422067642211914,
+  "model": "qwen2_5_vl_3b",
+  "model_path": "<LOCAL_MODEL_ROOT>/Qwen2.5-VL-3B-Instruct",
+  "n_cases": 60,
+  "seconds_per_prompt": 0.020040963093439737,
+  "unparseable_rate": 0.0
+}

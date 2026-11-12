@@ -1,0 +1,9 @@
+{
+  "attacked_visible_context_accuracy": 0.95,
+  "decision_flip_rate": 0.9,
+  "full_task_accuracy": 0.95,
+  "mdo_budget_tested": 1,
+  "model": "qwen3:latest",
+  "n_cases": 20,
+  "unparseable_rate": 0.0
+}

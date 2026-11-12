@@ -1,0 +1,327 @@
+{
+  "candidates": [
+    {
+      "commit_url": "https://api.github.com/repos/chromium/chromium/commits/d616695bd68610e75b90d734d72d42534bf01b82",
+      "cve_id": "CVE-2018-6163",
+      "cwe_id": "",
+      "file_names": [
+        "components/url_formatter/idn_spoof_checker.cc",
+        "components/url_formatter/url_formatter_unittest.cc"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/chromium/chromium",
+      "sha": "d616695bd68610e75b90d734d72d42534bf01b82",
+      "total_changes": 81
+    },
+    {
+      "commit_url": "https://api.github.com/repos/FreeRDP/FreeRDP/commits/0773bb9303d24473fe1185d85a424dfe159aff53",
+      "cve_id": "CVE-2013-4119",
+      "cwe_id": "CWE-476",
+      "file_names": [
+        "libfreerdp/core/nla.c",
+        "libfreerdp/core/peer.c",
+        "libfreerdp/core/transport.c",
+        "winpr/libwinpr/sspi/sspi.c"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/FreeRDP/FreeRDP",
+      "sha": "0773bb9303d24473fe1185d85a424dfe159aff53",
+      "total_changes": 10
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/sling/commits/7d2365a248943071a44d8495655186e4f14ea294",
+      "cve_id": "CVE-2016-5394",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "bundles/extensions/xss/src/main/java/org/apache/sling/xss/impl/XSSAPIImpl.java",
+        "bundles/extensions/xss/src/test/java/org/apache/sling/xss/impl/XSSAPIImplTest.java"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/apache/sling",
+      "sha": "7d2365a248943071a44d8495655186e4f14ea294",
+      "total_changes": 15
+    },
+    {
+      "commit_url": "https://api.github.com/repos/WordPress/WordPress/commits/246a70bdbfac3bd45ff71c7941deef1bb206b19a",
+      "cve_id": "CVE-2018-20149",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "wp-includes/functions.php",
+        "wp-includes/version.php"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/WordPress/WordPress",
+      "sha": "246a70bdbfac3bd45ff71c7941deef1bb206b19a",
+      "total_changes": 49
+    },
+    {
+      "commit_url": "https://api.github.com/repos/jquery/jquery/commits/db9e023e62c1ff5d8f21ed9868ab6878da2005e9",
+      "cve_id": "CVE-2011-4969",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "src/core.js",
+        "test/unit/core.js"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/jquery/jquery",
+      "sha": "db9e023e62c1ff5d8f21ed9868ab6878da2005e9",
+      "total_changes": 22
+    },
+    {
+      "commit_url": "https://api.github.com/repos/hibernate/hibernate-validator/commits/2c95d4ea0ef20977be249e31a4a4f4f4f71c945d",
+      "cve_id": "CVE-2014-3558",
+      "cwe_id": "CWE-264",
+      "file_names": [
+        "engine/src/main/java/org/hibernate/validator/internal/util/logging/Messages.java",
+        "engine/src/main/java/org/hibernate/validator/internal/util/privilegedactions/GetResource.java",
+        "engine/src/main/java/org/hibernate/validator/internal/xml/XmlParserHelper.java"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/hibernate/hibernate-validator",
+      "sha": "2c95d4ea0ef20977be249e31a4a4f4f4f71c945d",
+      "total_changes": 52
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/hive/commits/0330c1c0b62f3c2e6a4744048578dea55193b62",
+      "cve_id": "CVE-2018-1282",
+      "cwe_id": "CWE-89",
+      "file_names": [
+        "itests/hive-unit/src/test/java/org/apache/hive/jdbc/TestJdbcDriver2.java",
+        "jdbc/src/java/org/apache/hive/jdbc/HivePreparedStatement.java"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/apache/hive",
+      "sha": "0330c1c0b62f3c2e6a4744048578dea55193b62",
+      "total_changes": 48
+    },
+    {
+      "commit_url": "https://api.github.com/repos/mdadams/jasper/commits/1e84674d95353c64e5c4c0e7232ae86fd6ea813b",
+      "cve_id": "CVE-2016-9391",
+      "cwe_id": "",
+      "file_names": [
+        "src/libjasper/jpc/jpc_bs.c",
+        "src/libjasper/jpc/jpc_cs.c",
+        "src/libjasper/jpc/jpc_dec.c"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/mdadams/jasper",
+      "sha": "1e84674d95353c64e5c4c0e7232ae86fd6ea813b",
+      "total_changes": 15
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/cordova-plugin-inappbrowser/commits/26702cb0720c5c394b407c23570136c53171fa55",
+      "cve_id": "CVE-2014-0073",
+      "cwe_id": "CWE-264",
+      "file_names": [
+        "src/ios/CDVInAppBrowser.h",
+        "src/ios/CDVInAppBrowser.m"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/apache/cordova-plugin-inappbrowser",
+      "sha": "26702cb0720c5c394b407c23570136c53171fa55",
+      "total_changes": 21
+    },
+    {
+      "commit_url": "https://api.github.com/repos/x-stream/xstream/commits/87172cfc1dd7f8f6e137963c778b03efd14ac446",
+      "cve_id": "CVE-2016-3674",
+      "cwe_id": "CWE-200",
+      "file_names": [
+        "xstream/src/java/com/thoughtworks/xstream/io/xml/JDom2Driver.java",
+        "xstream/src/java/com/thoughtworks/xstream/io/xml/JDomDriver.java",
+        "xstream/src/test/com/thoughtworks/xstream/io/xml/JDom2ReaderTest.java",
+        "xstream/src/test/com/thoughtworks/xstream/io/xml/JDomReaderTest.java"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/x-stream/xstream",
+      "sha": "87172cfc1dd7f8f6e137963c778b03efd14ac446",
+      "total_changes": 54
+    },
+    {
+      "commit_url": "https://api.github.com/repos/saltstack/salt/commits/80d90307b07b3703428ecbb7c8bb468e28a9ae6d",
+      "cve_id": "CVE-2017-14695",
+      "cwe_id": "CWE-22",
+      "file_names": [
+        "salt/utils/verify.py",
+        "tests/unit/utils/test_verify.py"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/saltstack/salt",
+      "sha": "80d90307b07b3703428ecbb7c8bb468e28a9ae6d",
+      "total_changes": 25
+    },
+    {
+      "commit_url": "https://api.github.com/repos/sauruscms/Saurus-CMS-Community-Edition/commits/8dec044d0fdabcb9b04e58037623385a97b0d288",
+      "cve_id": "CVE-2015-1562",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "admin/error_log.php",
+        "admin/profile_data.php",
+        "classes/user_html.inc.php"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/sauruscms/Saurus-CMS-Community-Edition",
+      "sha": "8dec044d0fdabcb9b04e58037623385a97b0d288",
+      "total_changes": 18
+    },
+    {
+      "commit_url": "https://api.github.com/repos/torvalds/linux/commits/19be0eaffa3ac7d8eb6784ad9bdbc7d67ed8e619",
+      "cve_id": "CVE-2016-5195",
+      "cwe_id": "CWE-362",
+      "file_names": [
+        "include/linux/mm.h",
+        "mm/gup.c"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/torvalds/linux",
+      "sha": "19be0eaffa3ac7d8eb6784ad9bdbc7d67ed8e619",
+      "total_changes": 15
+    },
+    {
+      "commit_url": "https://api.github.com/repos/spacewalkproject/spacewalk/commits/7b9ff9ad",
+      "cve_id": "CVE-2016-3079",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "java/code/src/com/redhat/rhn/common/localization/LocalizationService.java",
+        "java/code/src/com/redhat/rhn/frontend/nav/DialognavRenderer.java",
+        "java/code/webapp/WEB-INF/pages/common/fragments/kickstart/advanced/details.jspf",
+        "java/code/webapp/WEB-INF/pages/systems/sdc/history_event.jsp"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/spacewalkproject/spacewalk",
+      "sha": "7b9ff9ad",
+      "total_changes": 39
+    },
+    {
+      "commit_url": "https://api.github.com/repos/ZJONSSON/node-unzipper/commits/2220ddd5b58f6252069a4f99f9475441ad0b50cd",
+      "cve_id": "CVE-2018-1002203",
+      "cwe_id": "CWE-22",
+      "file_names": [
+        "lib/extract.js",
+        "test/uncompressed.js",
+        "testData/zip-slip/zip-slip.zip"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/ZJONSSON/node-unzipper",
+      "sha": "2220ddd5b58f6252069a4f99f9475441ad0b50cd",
+      "total_changes": 49
+    },
+    {
+      "commit_url": "https://api.github.com/repos/spring-projects/spring-amqp/commits/36e55998f6352ba3498be950ccab1d5f4d0ce655",
+      "cve_id": "CVE-2017-8045",
+      "cwe_id": "CWE-502",
+      "file_names": [
+        "spring-amqp/src/main/java/org/springframework/amqp/core/Message.java",
+        "spring-amqp/src/main/java/org/springframework/amqp/support/converter/WhiteListDeserializingMessageConverter.java",
+        "spring-amqp/src/test/java/org/springframework/amqp/core/MessageTests.java",
+        "src/reference/asciidoc/amqp.adoc"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/spring-projects/spring-amqp",
+      "sha": "36e55998f6352ba3498be950ccab1d5f4d0ce655",
+      "total_changes": 78
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/struts/commits/6b8272ce47160036ed120a48345d9aa884477228",
+      "cve_id": "CVE-2017-5638",
+      "cwe_id": "CWE-20",
+      "file_names": [
+        "core/src/main/java/org/apache/struts2/interceptor/FileUploadInterceptor.java",
+        "core/src/test/java/org/apache/struts2/interceptor/FileUploadInterceptorTest.java"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/apache/struts",
+      "sha": "6b8272ce47160036ed120a48345d9aa884477228",
+      "total_changes": 21
+    },
+    {
+      "commit_url": "https://api.github.com/repos/the-tcpdump-group/tcpdump/commits/c24922e692a52121e853a84ead6b9337f4c08a94",
+      "cve_id": "CVE-2018-14466",
+      "cwe_id": "CWE-125",
+      "file_names": [
+        "print-rx.c",
+        "tests/TESTLIST",
+        "tests/rx_serviceid_oobr.out",
+        "tests/rx_serviceid_oobr.pcap"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/the-tcpdump-group/tcpdump",
+      "sha": "c24922e692a52121e853a84ead6b9337f4c08a94",
+      "total_changes": 8
+    },
+    {
+      "commit_url": "https://api.github.com/repos/square/go-jose/commits/789a4c4bd4c118f7564954f441b29c153ccd6a96",
+      "cve_id": "CVE-2016-9123",
+      "cwe_id": "CWE-190",
+      "file_names": [
+        "cipher/cbc_hmac.go",
+        "cipher/cbc_hmac_test.go",
+        "cipher/concat_kdf.go",
+        "cipher/ecdh_es.go"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/square/go-jose",
+      "sha": "789a4c4bd4c118f7564954f441b29c153ccd6a96",
+      "total_changes": 31
+    },
+    {
+      "commit_url": "https://api.github.com/repos/openssl/openssl/commits/380f18ed5f140e0ae1b68f3ab8f4f7c395658d9e",
+      "cve_id": "CVE-2016-0798",
+      "cwe_id": "CWE-399",
+      "file_names": [
+        "CHANGES",
+        "apps/s_server.c",
+        "crypto/srp/srp_vfy.c",
+        "include/openssl/srp.h",
+        "util/libeay.num"
+      ],
+      "language": "c",
+      "n_files": 5,
+      "project": "https://github.com/openssl/openssl",
+      "sha": "380f18ed5f140e0ae1b68f3ab8f4f7c395658d9e",
+      "total_changes": 133
+    }
+  ],
+  "criteria": {
+    "CVE_id_required": true,
+    "at_least_one_source_extension": true,
+    "changed_files_range": [
+      2,
+      5
+    ],
+    "github_project_required": true,
+    "total_changes_range": [
+      4,
+      180
+    ],
+    "unique_CVE": true,
+    "unique_project": true
+  },
+  "planned_n": 20,
+  "post_selection_exclusions_allowed": [
+    "GitHub API inaccessible",
+    "commit no longer exists",
+    "no textual patch returned for any changed file"
+  ],
+  "seed": 20260824,
+  "selected_n": 20,
+  "selection_before_patch_retrieval": true
+}

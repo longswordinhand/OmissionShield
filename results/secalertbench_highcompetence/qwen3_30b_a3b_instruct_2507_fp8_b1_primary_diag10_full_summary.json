@@ -1,0 +1,19 @@
+{
+  "attack_full_correct": 9,
+  "attack_full_tpr": 0.9,
+  "dataset": "SecAlertBench",
+  "diagnostic_max_per_label": 10,
+  "elapsed_seconds": 67.80112648010254,
+  "mdo1_rate_cond_attack_full_correct": null,
+  "model": "qwen3_30b_a3b_instruct_2507_fp8_b1",
+  "n_attack": 10,
+  "n_attack_mdo1": null,
+  "n_non_attack": 10,
+  "n_omission_prompts": 0,
+  "n_total": 20,
+  "non_attack_full_correct": 0,
+  "non_attack_tnr": 0.0,
+  "overall_full_accuracy": 0.45,
+  "seed": 20260825,
+  "view": "primary"
+}

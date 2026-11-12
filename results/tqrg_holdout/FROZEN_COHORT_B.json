@@ -1,0 +1,479 @@
+{
+  "candidates": [
+    {
+      "commit_url": "https://api.github.com/repos/php/php-src/commits/089f7c0bc28d399b0420aa6ef058e4c1c120b2ae",
+      "cve_id": "CVE-2019-6978",
+      "cwe_id": "CWE-415",
+      "file_names": [
+        "ext/gd/libgd/gd_gif_out.c",
+        "ext/gd/libgd/gd_jpeg.c",
+        "ext/gd/libgd/gd_wbmp.c"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/php/php-src",
+      "sha": "089f7c0bc28d399b0420aa6ef058e4c1c120b2ae",
+      "total_changes": 55
+    },
+    {
+      "commit_url": "https://api.github.com/repos/vim/vim/commits/0c8485f0e4931463c0f7986e1ea84a7d79f10c75",
+      "cve_id": "CVE-2017-6350",
+      "cwe_id": "CWE-190",
+      "file_names": [
+        "src/undo.c",
+        "src/version.c"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/vim/vim",
+      "sha": "0c8485f0e4931463c0f7986e1ea84a7d79f10c75",
+      "total_changes": 9
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/lucene-solr/commits/dd3be31f7062dcb2f3b2d7f0e89df29e197dee6",
+      "cve_id": "CVE-2018-1308",
+      "cwe_id": "CWE-611",
+      "file_names": [
+        "solr/CHANGES.txt",
+        "solr/contrib/dataimporthandler/src/java/org/apache/solr/handler/dataimport/DataImporter.java",
+        "solr/contrib/dataimporthandler/src/test/org/apache/solr/handler/dataimport/TestErrorHandling.java"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/apache/lucene-solr",
+      "sha": "dd3be31f7062dcb2f3b2d7f0e89df29e197dee6",
+      "total_changes": 43
+    },
+    {
+      "commit_url": "https://api.github.com/repos/FFmpeg/FFmpeg/commits/bd27a9364ca274ca97f1df6d984e88a0700fb235",
+      "cve_id": "CVE-2018-13304",
+      "cwe_id": "CWE-617",
+      "file_names": [
+        "libavcodec/error_resilience.c",
+        "libavcodec/h263dec.c",
+        "libavcodec/mpeg4videodec.c"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/FFmpeg/FFmpeg",
+      "sha": "bd27a9364ca274ca97f1df6d984e88a0700fb235",
+      "total_changes": 10
+    },
+    {
+      "commit_url": "https://api.github.com/repos/tine20/Tine-2.0-Open-Source-Groupware-and-CRM/commits/24e39e1e930097b8793a03b8864d3c484ede546b",
+      "cve_id": "CVE-2017-14921",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "tine20/Calendar/js/MainScreenCenterPanel.js",
+        "tine20/Filemanager/js/ExceptionHandler.js",
+        "tine20/Filemanager/js/GridContextMenu.js",
+        "tine20/Filemanager/js/NodeGridPanel.js",
+        "tine20/Tinebase/js/MainMenu.js"
+      ],
+      "language": "",
+      "n_files": 5,
+      "project": "https://github.com/tine20/Tine-2.0-Open-Source-Groupware-and-CRM",
+      "sha": "24e39e1e930097b8793a03b8864d3c484ede546b",
+      "total_changes": 29
+    },
+    {
+      "commit_url": "https://api.github.com/repos/rails/rails/commits/5f94b93279f6d0682fafb237c301302c107a9552",
+      "cve_id": "CVE-2011-2929",
+      "cwe_id": "CWE-20",
+      "file_names": [
+        "actionpack/lib/action_view/template/resolver.rb",
+        "actionpack/test/controller/render_test.rb",
+        "actionpack/test/fixtures/test/hello_w*rld.erb"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/rails/rails",
+      "sha": "5f94b93279f6d0682fafb237c301302c107a9552",
+      "total_changes": 30
+    },
+    {
+      "commit_url": "https://api.github.com/repos/josh/rails/commits/b93c590297ba65a6c5b18655a7790163abcb06f1",
+      "cve_id": "CVE-2011-0449",
+      "cwe_id": "CWE-264",
+      "file_names": [
+        "actionpack/lib/action_view/template/resolver.rb",
+        "actionpack/test/controller/render_test.rb"
+      ],
+      "language": "rb",
+      "n_files": 2,
+      "project": "https://github.com/josh/rails",
+      "sha": "b93c590297ba65a6c5b18655a7790163abcb06f1",
+      "total_changes": 25
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/tomcat/commits/cbc9b18a845d3c8c053ac293dffda6c6c19dd92b",
+      "cve_id": "CVE-2016-8745",
+      "cwe_id": "CWE-388",
+      "file_names": [
+        "java/org/apache/tomcat/util/net/NioEndpoint.java",
+        "test/org/apache/catalina/connector/TestSendFile.java",
+        "webapps/docs/changelog.xml"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/apache/tomcat",
+      "sha": "cbc9b18a845d3c8c053ac293dffda6c6c19dd92b",
+      "total_changes": 11
+    },
+    {
+      "commit_url": "https://api.github.com/repos/NaCl-Ltd/pref-shimane-cms/commits/5ec03cb174513844c410ee7fba594c544ba80ce2",
+      "cve_id": "CVE-2015-5659",
+      "cwe_id": "CWE-89",
+      "file_names": [
+        "pref-shimane-cms/CHANGELOG.md",
+        "pref-shimane-cms/app/controllers/concerns/susanoo/pages_controller.rb",
+        "pref-shimane-cms/config/initializers/version.rb"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/NaCl-Ltd/pref-shimane-cms",
+      "sha": "5ec03cb174513844c410ee7fba594c544ba80ce2",
+      "total_changes": 50
+    },
+    {
+      "commit_url": "https://api.github.com/repos/roest01/node-pdf-image/commits/54679496a89738443917608c2bbe2f6e5dd20e83",
+      "cve_id": "CVE-2018-3757",
+      "cwe_id": "CWE-78",
+      "file_names": [
+        "index.js",
+        "package.json",
+        "tests/test-main.js"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/roest01/node-pdf-image",
+      "sha": "54679496a89738443917608c2bbe2f6e5dd20e83",
+      "total_changes": 156
+    },
+    {
+      "commit_url": "https://api.github.com/repos/netdata/netdata/commits/92327c9ec211bd1616315abcb255861b130b97ca",
+      "cve_id": "CVE-2018-18837",
+      "cwe_id": "CWE-113",
+      "file_names": [
+        "libnetdata/url/url.c",
+        "web/api/web_api_v1.c"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/netdata/netdata",
+      "sha": "92327c9ec211bd1616315abcb255861b130b97ca",
+      "total_changes": 21
+    },
+    {
+      "commit_url": "https://api.github.com/repos/thorsten/phpMyFAQ/commits/2d2a85b59e058869d7cbcfe2d73fed4a282f2e5b",
+      "cve_id": "CVE-2017-15728",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "phpmyfaq/admin/configuration.php",
+        "phpmyfaq/index.php"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/thorsten/phpMyFAQ",
+      "sha": "2d2a85b59e058869d7cbcfe2d73fed4a282f2e5b",
+      "total_changes": 7
+    },
+    {
+      "commit_url": "https://api.github.com/repos/Dolibarr/dolibarr/commits/c539155d6ac2f5b6ea75b87a16f298c0090e535a",
+      "cve_id": "CVE-2011-4814",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "htdocs/admin/boxes.php",
+        "htdocs/admin/ihm.php",
+        "htdocs/lib/usergroups.lib.php",
+        "htdocs/main.inc.php",
+        "htdocs/user/group/index.php"
+      ],
+      "language": "",
+      "n_files": 5,
+      "project": "https://github.com/Dolibarr/dolibarr",
+      "sha": "c539155d6ac2f5b6ea75b87a16f298c0090e535a",
+      "total_changes": 45
+    },
+    {
+      "commit_url": "https://api.github.com/repos/opnsense/core/commits/d218b225",
+      "cve_id": "CVE-2017-1000479",
+      "cwe_id": "CWE-352",
+      "file_names": [
+        "src/www/csrf/csrf-magic.php",
+        "src/www/guiconfig.inc"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/opnsense/core",
+      "sha": "d218b225",
+      "total_changes": 81
+    },
+    {
+      "commit_url": "https://api.github.com/repos/ImageMagick/ImageMagick/commits/10b3823a7619ed22d42764733eb052c4159bc8c1",
+      "cve_id": "CVE-2016-10055",
+      "cwe_id": "CWE-119",
+      "file_names": [
+        "ChangeLog",
+        "coders/map.c",
+        "coders/pdb.c",
+        "coders/sixel.c",
+        "coders/tiff.c"
+      ],
+      "language": "",
+      "n_files": 5,
+      "project": "https://github.com/ImageMagick/ImageMagick",
+      "sha": "10b3823a7619ed22d42764733eb052c4159bc8c1",
+      "total_changes": 50
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/hadoop/commits/bbe3b0857d383c5e4dc4a7ade90a88a3e24338b",
+      "cve_id": "CVE-2017-7669",
+      "cwe_id": "CWE-20",
+      "file_names": [
+        "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/main/java/org/apache/hadoop/yarn/server/nodemanager/containermanager/linux/runtime/DockerLinuxContainerRuntime.java",
+        "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-nodemanager/src/test/java/org/apache/hadoop/yarn/server/nodemanager/containermanager/linux/runtime/TestDockerContainerRuntime.java"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/apache/hadoop",
+      "sha": "bbe3b0857d383c5e4dc4a7ade90a88a3e24338b",
+      "total_changes": 53
+    },
+    {
+      "commit_url": "https://api.github.com/repos/modxcms/revolution/commits/3241473d8213e9551cef4ed0e8ac4645cfbd10c4",
+      "cve_id": "CVE-2018-10382",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "core/model/modx/processors/security/user/getrecentlyeditedresources.class.php",
+        "core/model/modx/processors/system/menu/getnodes.class.php",
+        "core/model/modx/processors/system/settings/getlist.class.php"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/modxcms/revolution",
+      "sha": "3241473d8213e9551cef4ed0e8ac4645cfbd10c4",
+      "total_changes": 4
+    },
+    {
+      "commit_url": "https://api.github.com/repos/LibRaw/LibRaw/commits/5563e6ddc3f7cb93d98b491194ceebdee7288d36",
+      "cve_id": "CVE-2017-16910",
+      "cwe_id": "CWE-125",
+      "file_names": [
+        "dcraw/dcraw.c",
+        "internal/dcraw_common.cpp"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/LibRaw/LibRaw",
+      "sha": "5563e6ddc3f7cb93d98b491194ceebdee7288d36",
+      "total_changes": 64
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/tomcat80/commits/1977bf9df699c571cf3e08c2996533b959d4cb1e",
+      "cve_id": "CVE-2016-5388",
+      "cwe_id": "CWE-284",
+      "file_names": [
+        "conf/web.xml",
+        "java/org/apache/catalina/servlets/CGIServlet.java",
+        "webapps/docs/cgi-howto.xml",
+        "webapps/docs/changelog.xml"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/apache/tomcat80",
+      "sha": "1977bf9df699c571cf3e08c2996533b959d4cb1e",
+      "total_changes": 47
+    },
+    {
+      "commit_url": "https://api.github.com/repos/nextcloud/server/commits/94975af6db1551c2d23136c2ea22866a5b416070",
+      "cve_id": "CVE-2016-9459",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "settings/controller/logsettingscontroller.php",
+        "tests/settings/controller/logsettingscontrollertest.php"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/nextcloud/server",
+      "sha": "94975af6db1551c2d23136c2ea22866a5b416070",
+      "total_changes": 9
+    },
+    {
+      "commit_url": "https://api.github.com/repos/uclouvain/openjpeg/commits/e078172b1c3f98d2219c37076b238fb759c751ea",
+      "cve_id": "CVE-2016-5157",
+      "cwe_id": "CWE-119",
+      "file_names": [
+        "src/lib/openjp2/tcd.c",
+        "tests/compare_dump_files.c",
+        "tests/nonregression/test_suite.ctest.in"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/uclouvain/openjpeg",
+      "sha": "e078172b1c3f98d2219c37076b238fb759c751ea",
+      "total_changes": 28
+    },
+    {
+      "commit_url": "https://api.github.com/repos/minimagick/minimagick/commits/4cd5081e58810d3394d27a67219e8e4e0445d851",
+      "cve_id": "CVE-2019-13574",
+      "cwe_id": "CWE-20",
+      "file_names": [
+        "lib/mini_magick/image.rb",
+        "spec/lib/mini_magick/image_spec.rb"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/minimagick/minimagick",
+      "sha": "4cd5081e58810d3394d27a67219e8e4e0445d851",
+      "total_changes": 22
+    },
+    {
+      "commit_url": "https://api.github.com/repos/phpmyadmin/phpmyadmin/commits/395265e9937beb21134626c01a21f44b28e712e5",
+      "cve_id": "CVE-2014-4987",
+      "cwe_id": "CWE-264",
+      "file_names": [
+        "ChangeLog",
+        "server_user_groups.php"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/phpmyadmin/phpmyadmin",
+      "sha": "395265e9937beb21134626c01a21f44b28e712e5",
+      "total_changes": 11
+    },
+    {
+      "commit_url": "https://api.github.com/repos/faiyazalam/WordPress-plugin-user-login-history/commits/519341a7dece59e2c589b908a636e6cf12a61741",
+      "cve_id": "CVE-2017-15867",
+      "cwe_id": "CWE-79",
+      "file_names": [
+        "admin/class-user-login-history-user-tracker.php",
+        "admin/partials/listing/listing.php",
+        "includes/class-user-login-history-error-handler.php",
+        "public/partials/listing/listing.php",
+        "user-login-history.php"
+      ],
+      "language": "",
+      "n_files": 5,
+      "project": "https://github.com/faiyazalam/WordPress-plugin-user-login-history",
+      "sha": "519341a7dece59e2c589b908a636e6cf12a61741",
+      "total_changes": 81
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/camel/commits/341d4e6cca71c53c90962d1c3d45fc9e05cc50c6",
+      "cve_id": "CVE-2014-0002",
+      "cwe_id": "CWE-264",
+      "file_names": [
+        "camel-core/src/main/java/org/apache/camel/component/xslt/XsltConstants.java",
+        "camel-core/src/main/java/org/apache/camel/component/xslt/XsltEndpoint.java",
+        "camel-core/src/test/java/org/apache/camel/component/xslt/XsltFromHeaderOverrideEndpointUriTest.java"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/apache/camel",
+      "sha": "341d4e6cca71c53c90962d1c3d45fc9e05cc50c6",
+      "total_changes": 23
+    },
+    {
+      "commit_url": "https://api.github.com/repos/owncloud/core/commits/bcc6c39ad8c22a00323a114e9c1a0a834983fb35",
+      "cve_id": "CVE-2016-9468",
+      "cwe_id": "CWE-284",
+      "file_names": [
+        "apps/dav/lib/files/browsererrorpageplugin.php",
+        "apps/dav/templates/exception.php"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/owncloud/core",
+      "sha": "bcc6c39ad8c22a00323a114e9c1a0a834983fb35",
+      "total_changes": 31
+    },
+    {
+      "commit_url": "https://api.github.com/repos/spring-projects/spring-security/commits/fed15f2b01b763158f6650afa13059203366974",
+      "cve_id": "CVE-2018-1258",
+      "cwe_id": "CWE-863",
+      "file_names": [
+        "config/src/main/java/org/springframework/security/config/web/server/ServerHttpSecurity.java",
+        "config/src/test/java/org/springframework/security/config/web/server/ExceptionHandlingSpecTests.java"
+      ],
+      "language": "",
+      "n_files": 2,
+      "project": "https://github.com/spring-projects/spring-security",
+      "sha": "fed15f2b01b763158f6650afa13059203366974",
+      "total_changes": 160
+    },
+    {
+      "commit_url": "https://api.github.com/repos/apache/tomcat55/commits/b05497eff4311a9657de6dfc53511d0309eb9db4",
+      "cve_id": "CVE-2012-0022",
+      "cwe_id": "CWE-189",
+      "file_names": [
+        "STATUS.txt",
+        "connectors/util/java/org/apache/tomcat/util/http/LocalStrings.properties",
+        "connectors/util/java/org/apache/tomcat/util/http/Parameters.java",
+        "container/webapps/docs/changelog.xml"
+      ],
+      "language": "",
+      "n_files": 4,
+      "project": "https://github.com/apache/tomcat55",
+      "sha": "b05497eff4311a9657de6dfc53511d0309eb9db4",
+      "total_changes": 49
+    },
+    {
+      "commit_url": "https://api.github.com/repos/facebook/hhvm/commits/dbeb9a56a638e3fdcef8b691c2a2967132dae692",
+      "cve_id": "CVE-2019-11929",
+      "cwe_id": "CWE-119",
+      "file_names": [
+        "hphp/runtime/base/zend-string.cpp",
+        "hphp/test/slow/string/number_format_t53795309.php",
+        "hphp/test/slow/string/number_format_t53795309.php.expect"
+      ],
+      "language": "",
+      "n_files": 3,
+      "project": "https://github.com/facebook/hhvm",
+      "sha": "dbeb9a56a638e3fdcef8b691c2a2967132dae692",
+      "total_changes": 16
+    },
+    {
+      "commit_url": "https://api.github.com/repos/gpg/boa/commits/e139b87835994d007fbd64eead6c1455d7b8cf4e",
+      "cve_id": "CVE-2018-21028",
+      "cwe_id": "",
+      "file_names": [
+        "extras/scandir.c",
+        "extras/strutil.c",
+        "src/index_dir.c",
+        "src/log.c",
+        "src/sublog.c"
+      ],
+      "language": "",
+      "n_files": 5,
+      "project": "https://github.com/gpg/boa",
+      "sha": "e139b87835994d007fbd64eead6c1455d7b8cf4e",
+      "total_changes": 28
+    }
+  ],
+  "cohort_a_shas": [
+    "d616695bd68610e75b90d734d72d42534bf01b82",
+    "0773bb9303d24473fe1185d85a424dfe159aff53",
+    "7d2365a248943071a44d8495655186e4f14ea294",
+    "246a70bdbfac3bd45ff71c7941deef1bb206b19a",
+    "db9e023e62c1ff5d8f21ed9868ab6878da2005e9",
+    "2c95d4ea0ef20977be249e31a4a4f4f4f71c945d",
+    "0330c1c0b62f3c2e6a4744048578dea55193b62",
+    "1e84674d95353c64e5c4c0e7232ae86fd6ea813b",
+    "26702cb0720c5c394b407c23570136c53171fa55",
+    "87172cfc1dd7f8f6e137963c778b03efd14ac446",
+    "80d90307b07b3703428ecbb7c8bb468e28a9ae6d",
+    "8dec044d0fdabcb9b04e58037623385a97b0d288",
+    "19be0eaffa3ac7d8eb6784ad9bdbc7d67ed8e619",
+    "7b9ff9ad",
+    "2220ddd5b58f6252069a4f99f9475441ad0b50cd",
+    "36e55998f6352ba3498be950ccab1d5f4d0ce655",
+    "6b8272ce47160036ed120a48345d9aa884477228",
+    "c24922e692a52121e853a84ead6b9337f4c08a94",
+    "789a4c4bd4c118f7564954f441b29c153ccd6a96",
+    "380f18ed5f140e0ae1b68f3ab8f4f7c395658d9e"
+  ],
+  "cohort_b_n": 30,
+  "note": "Cohort B frozen before its GitHub patches were retrieved or any cohort-B model outputs were observed.",
+  "selection_rule": "same deterministic TQRG metadata-only rule as cohort A"
+}
